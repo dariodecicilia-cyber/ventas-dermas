@@ -11,6 +11,45 @@ export default function AdminPage() {
   const [results, setResults] = useState<Product[]>([]);
   const [error, setError] = useState('');
   const [saveStatus, setSaveStatus] = useState('');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [passInput, setPassInput] = useState('');
+  const [authError, setAuthError] = useState('');
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const res = await fetch('/api/auth/verify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: passInput })
+    });
+    if (res.ok) {
+      setIsAuthenticated(true);
+      setAuthError('');
+    } else {
+      setAuthError('Contraseña incorrecta');
+    }
+  };
+
+  if (!isAuthenticated) {
+    return (
+      <div className="container" style={{ padding: '4rem 1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
+        <div className="glass-card" style={{ maxWidth: '400px', width: '100%', padding: '2rem', textAlign: 'center' }}>
+          <h2 style={{ marginBottom: '2rem' }}>Panel Prohibido 🔒</h2>
+          <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <input 
+              type="password" 
+              placeholder="Escribe la clave secreta..."
+              value={passInput}
+              onChange={e => setPassInput(e.target.value)}
+              style={{ padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: '#fff', borderRadius: '8px', outline: 'none' }}
+            />
+            <button className="btn-primary" type="submit">Entrar</button>
+            {authError && <p style={{ color: '#ff4d4f', fontSize: '0.9rem' }}>{authError}</p>}
+          </form>
+        </div>
+      </div>
+    );
+  }
 
   const handleUpload = async () => {
     if (!file) return;
