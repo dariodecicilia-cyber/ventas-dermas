@@ -111,7 +111,8 @@ export async function POST(req: NextRequest) {
              brand: brand || "Desconocida",
              description: "",
              price: Math.round(finalPrice),
-             category: currentCategory
+             category: currentCategory,
+             order_index: nativeProducts.length // Preservamos el orden secuencial
            });
         }
       }

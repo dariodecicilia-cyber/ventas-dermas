@@ -7,7 +7,7 @@ export async function GET() {
       .from('products')
       .select('*')
       .order('brand', { ascending: true })
-      .order('id', { ascending: true });
+      .order('order_index', { ascending: true });
 
     if (error) throw error;
 

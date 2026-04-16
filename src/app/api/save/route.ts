@@ -28,7 +28,8 @@ export async function POST(req: NextRequest) {
          brand: p.brand,
          description: p.description || "",
          price: p.price,
-         category: p.category || "Varios"
+         category: p.category || "Varios",
+         order_index: p.order_index ?? 0
       })));
 
     if (insertError) throw insertError;
