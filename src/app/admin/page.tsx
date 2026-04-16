@@ -9,11 +9,33 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(false);
   const [statusText, setStatusText] = useState('');
   const [results, setResults] = useState<Product[]>([]);
-  const [error, setError] = useState('');
-  const [saveStatus, setSaveStatus] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [passInput, setPassInput] = useState('');
-  const [authError, setAuthError] = useState('');
+  const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [managementSearch, setManagementSearch] = useState('');
+
+  const fetchExisting = async () => {
+    const res = await fetch('/api/products');
+    const data = await res.json();
+    setAllProducts(data);
+  };
+
+  React.useEffect(() => {
+    if (isAuthenticated) fetchExisting();
+  }, [isAuthenticated]);
+
+  const handleDeleteProduct = async (id: any) => {
+    if (!confirm('¿Seguro que quieres eliminar este producto?')) return;
+    const res = await fetch(`/api/products?id=${id}`, { method: 'DELETE' });
+    if (res.ok) fetchExisting();
+  };
+
+  const handleClearBrand = async () => {
+    if (!confirm(`¿Seguro que quieres BORRAR TODO lo de la marca ${brand}?`)) return;
+    const res = await fetch(`/api/products?brand=${brand}`, { method: 'DELETE' });
+    if (res.ok) {
+       alert(`Se ha vaciado la marca ${brand}`);
+       fetchExisting();
+    }
+  };
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -60,19 +82,16 @@ export default function AdminPage() {
 
     try {
       if (file.name.endsWith('.pdf')) {
-        // CORTE MICROSCÓPICO: 1 PÁGINA A LA VEZ PARA EVITAR LA "PEREZA" VISUAL
         const arrayBuffer = await file.arrayBuffer();
         const pdfDoc = await PDFDocument.load(arrayBuffer);
         const totalPages = pdfDoc.getPageCount();
-        let allProducts: Product[] = [];
+        let currentProducts: Product[] = [];
 
         for (let i = 0; i < totalPages; i++) {
-          setStatusText(`🧠 Escaneando milimétricamente tabla por tabla... página ${i + 1} de ${totalPages}...`);
-          
+          setStatusText(`🧠 Escaneando... página ${i + 1} de ${totalPages}...`);
           const newPdf = await PDFDocument.create();
           const [copiedPage] = await newPdf.copyPages(pdfDoc, [i]);
           newPdf.addPage(copiedPage);
-          
           const chunkBytes = await newPdf.save();
           const chunkBlob = new Blob([chunkBytes as any], { type: 'application/pdf' });
           const fd = new FormData();
@@ -81,166 +100,137 @@ export default function AdminPage() {
 
           const res = await fetch('/api/upload', { method: 'POST', body: fd });
           const data = await res.json();
-          
-          if (!res.ok) {
-             console.error("Fallo parcial en pagina:", data);
-             continue; 
-          }
-          
-          if (data.products && data.products.length > 0) {
-            allProducts = [...allProducts, ...data.products];
-            setResults([...allProducts]); 
-          }
-          
-          // Pausa táctica
-          if (i < totalPages - 1) {
-             await new Promise(r => setTimeout(r, 4200));
+          if (res.ok && data.products) {
+            currentProducts = [...currentProducts, ...data.products];
+            setResults([...currentProducts]);
           }
         }
-        setStatusText(`¡Documento colosal dominado! Total rescatado: ${allProducts.length}`);
       } else {
-        // EXCEL FLUJO NORMAL
-        setStatusText('🧠 Extrayendo todas las celdas del Excel...');
         const fd = new FormData();
         fd.append('file', file);
         fd.append('brand', brand);
-
         const res = await fetch('/api/upload', { method: 'POST', body: fd });
         const data = await res.json();
-        
-        if (!res.ok) {
-          throw new Error(data.error || 'Falló la conexión con la Inteligencia Artificial.');
-        }
-        
+        if (!res.ok) throw new Error(data.error);
         setResults(data.products || []);
-        setStatusText(`¡Planilla Excel dominada!`);
       }
     } catch(err: any) {
       setError(err.message);
     } finally {
       setLoading(false);
-      setTimeout(() => setStatusText(''), 3000);
     }
   };
 
+  const filteredManagement = allProducts.filter(p => 
+    p.brand.toLowerCase().includes(managementSearch.toLowerCase()) ||
+    p.name.toLowerCase().includes(managementSearch.toLowerCase())
+  );
+
   return (
     <div className="container" style={{ padding: '4rem 1.5rem' }}>
-      <h1 className="title" style={{ textAlign: 'center', marginBottom: '1rem' }}>Panel Administrativo 🤖</h1>
-      <p style={{ color: 'var(--text-muted)', textAlign: 'center', marginBottom: '3rem', fontSize: '1.2rem' }}>
-        Añade hojas de cálculo y PDFs titánicos sin preocuparte por el tamaño.
-      </p>
+      <h1 style={{ textAlign: 'center', marginBottom: '3rem' }}>Panel de Control Derma's 🛸</h1>
 
-      <div className="glass-card" style={{ maxWidth: '600px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '1.8rem', padding: '2rem' }}>
-        <div>
-          <label style={{ display: 'block', marginBottom: '0.8rem', fontWeight: 600, color: 'var(--accent-color)' }}>1. Marca Proveedora</label>
-          <select 
-            value={brand} 
-            onChange={e => setBrand(e.target.value)} 
-            style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: '#fff', fontSize: '1rem', borderRadius: '8px', cursor: 'pointer', outline: 'none' }} 
-          >
-            <option value="Bioalquimia" style={{ color: '#000' }}>Bioalquimia</option>
-            <option value="NÜR" style={{ color: '#000' }}>NÜR</option>
-            <option value="Rouse Arey" style={{ color: '#000' }}>Rouse Arey</option>
-            <option value="Ale Piña" style={{ color: '#000' }}>Ale Piña</option>
-            <option value="Derma's" style={{ color: '#000' }}>Derma's</option>
-            <option value="K-beauty" style={{ color: '#000' }}>K-beauty</option>
-          </select>
-        </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 450px) 1fr', gap: '3rem', alignItems: 'start' }}>
         
-        <div>
-          <label style={{ display: 'block', marginBottom: '0.8rem', fontWeight: 600, color: 'var(--accent-color)' }}>2. Sube la Lista de Precios (.pdf o .xlsx)</label>
-          <input 
-            type="file" 
-            accept=".pdf, .xlsx" 
-            onChange={e => setFile(e.target.files?.[0] || null)} 
-            style={{ width: '100%', padding: '1rem', background: 'rgba(0,0,0,0.3)', color: '#fff', borderRadius: '8px' }} 
-          />
-        </div>
+        {/* COLUMNA IZQUIERDA: CARGA */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+          <div className="glass-card" style={{ padding: '2rem' }}>
+            <h2 style={{ fontSize: '1.2rem', marginBottom: '1.5rem', color: 'var(--accent-color)' }}>1. Cargar Nueva Lista</h2>
+            
+            <div style={{ marginBottom: '1rem' }}>
+              <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Marca Proveedora</label>
+              <select 
+                value={brand} 
+                onChange={e => setBrand(e.target.value)} 
+                style={{ width: '100%', padding: '0.8rem', background: '#222', color: '#fff', border: '1px solid #444', borderRadius: '6px' }} 
+              >
+                <option value="Bioalquimia">Bioalquimia</option>
+                <option value="NÜR">NÜR</option>
+                <option value="Rouse Arey">Rouse Arey</option>
+                <option value="Ale Piña">Ale Piña</option>
+                <option value="Derma's">Derma's</option>
+                <option value="K-beauty">K-beauty</option>
+              </select>
+            </div>
 
-        <button 
-          className="btn-primary" 
-          onClick={handleUpload} 
-          disabled={loading || !file} 
-          style={{ width: '100%', padding: '1.2rem', marginTop: '1rem', fontSize: '1.1rem', letterSpacing: '1px', opacity: (loading || !file) ? 0.6 : 1, transition: 'all 0.3s' }}
-        >
-          {loading ? statusText || '🧠 Analizando con IA...' : 'Analizar Lista y Extraer Productos'}
-        </button>
+            <div style={{ marginBottom: '1.5rem' }}>
+               <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.5rem' }}>Archivo (.pdf o .xlsx)</label>
+               <input type="file" onChange={e => setFile(e.target.files?.[0] || null)} style={{ width: '100%', fontSize: '0.8rem' }} />
+            </div>
 
-        {error && (
-          <div style={{ color: '#ff4d4f', padding: '1rem', background: 'rgba(255,0,0,0.1)', borderRadius: '8px', border: '1px solid #ff4d4f' }}>
-            ⚠️ Error: {error}
-          </div>
-        )}
-      </div>
-
-      {results.length > 0 && (
-        <div style={{ marginTop: '5rem', maxWidth: '800px', margin: '5rem auto 0 auto' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: '2rem', color: 'var(--text-main)', textAlign: 'center' }}>
-            {statusText.includes('dominado') ? '¡Éxito Total!' : 'Descubriendo...'} <span style={{ color: 'var(--accent-color)' }}>{results.length} Productos</span> Extráidos
-          </h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-            {results.map((p, i) => (
-              <div key={i} className="glass-card" style={{ padding: '1rem 1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', animation: 'fadeIn 0.5s ease-out' }}>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--accent-color)', fontWeight: 600, textTransform: 'uppercase' }}>{p.brand} | {p.category}</div>
-                  <strong style={{ fontSize: '1.1rem' }}>
-                    {p.name} 
-                    {p.presentation && <span style={{fontWeight: 'normal', color: 'var(--text-muted)', fontSize: '0.9rem', marginLeft: '6px'}}>- {p.presentation}</span>}
-                  </strong>
-                </div>
-                <div style={{ fontWeight: 700, fontSize: '1.4rem', color: '#fff' }}>
-                  ${p.price.toLocaleString('es-AR')}
-                </div>
-              </div>
-            ))}
-          </div>
-          
-          {/* BOTÓN TITÁNICO DE GUARDADO */}
-          <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-            <button 
-              className="btn-primary" 
-              onClick={async () => {
-                setSaveStatus('guardando');
-                try {
-                   const res = await fetch('/api/save', {
-                     method: 'POST',
-                     headers: { 'Content-Type': 'application/json' },
-                     body: JSON.stringify({ brand: brand, products: results })
-                   });
-                   const data = await res.json();
-                   if (!res.ok) throw new Error(data.error);
-                   setSaveStatus('ok');
-                   setTimeout(() => setSaveStatus(''), 4000);
-                } catch(e: any) {
-                   setError("Error al guardar: " + e.message);
-                   setSaveStatus('');
-                }
-              }} 
-              disabled={saveStatus === 'guardando' || saveStatus === 'ok'}
-              style={{ 
-                width: '100%', 
-                maxWidth: '500px', 
-                padding: '1.2rem', 
-                fontSize: '1.2rem', 
-                fontWeight: 'bold', 
-                letterSpacing: '1px', 
-                transition: 'all 0.3s',
-                backgroundColor: saveStatus === 'ok' ? '#27ae60' : (saveStatus === 'guardando' ? '#f39c12' : '#2ecc71'),
-                color: '#fff',
-                border: 'none',
-                borderRadius: '8px',
-                cursor: 'pointer',
-                boxShadow: saveStatus === 'ok' ? '0 0 20px rgba(39, 174, 96, 0.5)' : '0 0 20px rgba(46, 204, 113, 0.4)'
-              }}
-            >
-              {saveStatus === 'guardando' ? '💾 Escribiendo Base de Datos...' : 
-               saveStatus === 'ok' ? '✅ ¡Publicado Exitosamente!' : 
-               `🛒 Publicar ${results.length} Productos en Catálogo Oficial`}
+            <button className="btn-primary" onClick={handleUpload} disabled={loading || !file} style={{ width: '100%', padding: '1rem' }}>
+              {loading ? 'Analizando...' : 'Analizar y Previsualizar'}
             </button>
-            {saveStatus === 'ok' && <p style={{color: '#27ae60', marginTop: '1rem', fontWeight: 'bold'}}>¡Tus productos ya son visibles en la tienda para tus clientes!</p>}
+
+            <button 
+              onClick={handleClearBrand}
+              style={{ width: '100%', marginTop: '1rem', padding: '0.8rem', background: 'transparent', border: '1px solid #ff4d4f', color: '#ff4d4f', borderRadius: '6px', cursor: 'pointer', fontSize: '0.9rem' }}
+            >
+              🗑️ Vaciar TODA la marca {brand}
+            </button>
+          </div>
+
+          {results.length > 0 && (
+            <div className="glass-card" style={{ padding: '2rem', border: '1px solid var(--accent-color)' }}>
+              <h3 style={{ marginBottom: '1rem' }}>Previsualización ({results.length})</h3>
+              <button 
+                className="btn-primary" 
+                onClick={async () => {
+                  setSaveStatus('guardando');
+                  const res = await fetch('/api/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ brand, products: results }) });
+                  if (res.ok) { 
+                    setSaveStatus('ok'); 
+                    fetchExisting(); 
+                    setResults([]); 
+                  }
+                  else setSaveStatus('');
+                }}
+                disabled={saveStatus === 'guardando'}
+                style={{ width: '100%', marginBottom: '1rem', background: '#27ae60' }}
+              >
+                {saveStatus === 'ok' ? '✅ ¡PUBLICADO!' : '🚀 PUBLICAR AL CATÁLOGO'}
+              </button>
+              <div style={{ maxHeight: '300px', overflowY: 'auto', fontSize: '0.85rem' }}>
+                 {results.slice(0, 10).map((r, i) => <div key={i} style={{ padding: '4px 0', borderBottom: '1px solid #333' }}>{r.name} - ${r.price}</div>)}
+                 {results.length > 10 && <div style={{ textAlign: 'center', marginTop: '10px', color: '#888' }}>... y {results.length - 10} más</div>}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* COLUMNA DERECHA: GESTIÓN */}
+        <div className="glass-card" style={{ padding: '2rem' }}>
+          <h2 style={{ fontSize: '1.2rem', marginBottom: '1.5rem', color: 'var(--accent-color)' }}>2. Gestión de Catálogo Existente</h2>
+          
+          <input 
+            type="text" 
+            placeholder="Buscar en el catálogo actual..."
+            value={managementSearch}
+            onChange={e => setManagementSearch(e.target.value)}
+            style={{ width: '100%', padding: '1rem', borderRadius: '8px', background: 'rgba(255,255,255,0.03)', border: '1px solid #444', color: '#fff', marginBottom: '2rem' }}
+          />
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+            {filteredManagement.length === 0 ? <p style={{ color: '#888' }}>No hay productos para mostrar.</p> : 
+              filteredManagement.map((p) => (
+                <div key={p.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', border: '1px solid #333' }}>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: '0.75rem', color: 'var(--accent-color)' }}>{p.brand}</div>
+                    <div style={{ fontSize: '1rem', fontWeight: 600 }}>{p.name}</div>
+                  </div>
+                  <button 
+                    onClick={() => handleDeleteProduct(p.id)}
+                    style={{ background: '#ff4d4f22', color: '#ff4d4f', border: '1px solid #ff4d4f', padding: '0.4rem 0.8rem', borderRadius: '4px', cursor: 'pointer', fontSize: '0.8rem' }}
+                  >
+                    Eliminar
+                  </button>
+                </div>
+              ))
+            }
           </div>
         </div>
-      )}
+
+      </div>
     </div>
-  )
+  );
 }

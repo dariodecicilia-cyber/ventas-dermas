@@ -17,3 +17,27 @@ export async function GET() {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }
+
+export async function DELETE(req: Request) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get('id');
+    const brand = searchParams.get('brand');
+
+    if (id) {
+      const { error } = await supabase.from('products').delete().eq('id', id);
+      if (error) throw error;
+      return NextResponse.json({ success: true, message: 'Producto eliminado' });
+    }
+
+    if (brand) {
+      const { error } = await supabase.from('products').delete().eq('brand', brand);
+      if (error) throw error;
+      return NextResponse.json({ success: true, message: `Marca ${brand} vaciada` });
+    }
+
+    return NextResponse.json({ error: 'Falta ID o Marca' }, { status: 400 });
+  } catch (err: any) {
+    return NextResponse.json({ error: err.message }, { status: 500 });
+  }
+}
