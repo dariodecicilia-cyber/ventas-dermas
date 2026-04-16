@@ -1,0 +1,2879 @@
+[
+  {
+    "id": "i8gni9",
+    "name": "Espuma piel Normal a Seca",
+    "presentation": "150ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 18233,
+    "category": "Limp"
+  },
+  {
+    "id": "336wc",
+    "name": "Espuma piel Normal a Grasa",
+    "presentation": "150ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 18233,
+    "category": "Limp"
+  },
+  {
+    "id": "gbamha",
+    "name": "Gel Scrub Oil Control (semillas)",
+    "presentation": "50 ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 14300,
+    "category": "Limp"
+  },
+  {
+    "id": "x5su4c",
+    "name": "Bruma Hidratante (Hialurónico+7 botánicos)",
+    "presentation": "100ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 17518,
+    "category": "Tónico"
+  },
+  {
+    "id": "h2ywj6i",
+    "name": "Gel Antiacné Salicilico 2%",
+    "presentation": "100 ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 17875,
+    "category": "Tónico"
+  },
+  {
+    "id": "ykqy19",
+    "name": "HP (Hialurónico + Argireline)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 27885,
+    "category": "Boosters"
+  },
+  {
+    "id": "nwcn0g",
+    "name": "HB5 (Hialurónico + B5)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 24310,
+    "category": "Boosters"
+  },
+  {
+    "id": "sorho",
+    "name": "RB3 (Retinol + B3)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 25740,
+    "category": "Boosters"
+  },
+  {
+    "id": "injhzp",
+    "name": "RA (Retinol + aminoácidos + Hialurónicorónico)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 24310,
+    "category": "Boosters"
+  },
+  {
+    "id": "6dklps",
+    "name": "Cpure (ác. L-ascórbico 15% + Glutation)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 25025,
+    "category": "Boosters"
+  },
+  {
+    "id": "yneb2n",
+    "name": "DH (DMAE + Hialurónico)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 28600,
+    "category": "Boosters"
+  },
+  {
+    "id": "l0mm9h",
+    "name": "AT (Arbutina + Ác. Tranexámico)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 26455,
+    "category": "Boosters"
+  },
+  {
+    "id": "ztucbm",
+    "name": "NZ (Niacinamida+Zinc)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 22880,
+    "category": "Boosters"
+  },
+  {
+    "id": "nakuxk",
+    "name": "Gotas de Sol (autobronceante multifunción)",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 27170,
+    "category": "Boosters"
+  },
+  {
+    "id": "bd8i7j",
+    "name": "1 - Hidratante (Hialurónico + Complejo de Aminoácidos + Centella Asiática)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 25740,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "4ad93m",
+    "name": "2 - Oil Control - Antiacné (Salicilico + Niacinamida + Yerba Mate)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 27170,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "i949ge",
+    "name": "3 - Antiage Reafirmante (Resveratrol + Q10)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 27170,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "0ypkl7",
+    "name": "4 - Renovadora Intensa (Glicólico + Mandélico + Lactico + Niacinamida)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 28243,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "urq3hl",
+    "name": "5 - Renovadora Suave (Gluconolactona + ác. Lactobiónico)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 28243,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "4boi9j",
+    "name": "6 - Micropeeling (Glicólico 8%)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 28243,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "lspo7",
+    "name": "Emulsión Hidralight (Hialurónico + 7 botánicos)",
+    "presentation": "60ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 23595,
+    "category": "Emulsiones Rostro"
+  },
+  {
+    "id": "9bh5qm",
+    "name": "Emulsión Corporal (Hialurónico + Jojoba + Aloe) 400g",
+    "presentation": "400g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 25025,
+    "category": "Corp"
+  },
+  {
+    "id": "5bau9c",
+    "name": "Emulsión Corporal (Hialurónico + Jojoba + Aloe) 150g",
+    "presentation": "150g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 13228,
+    "category": "Corp"
+  },
+  {
+    "id": "v0psj",
+    "name": "Emulsión Reparadora Manos (Vitamina A + E + Cupuacu + Murumuru)",
+    "presentation": "100g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 17160,
+    "category": "Corp"
+  },
+  {
+    "id": "gfh3i",
+    "name": "Espuma de afeitar/limpieza",
+    "presentation": "150ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 18233,
+    "category": "Men"
+  },
+  {
+    "id": "evw72",
+    "name": "Serum active fluid",
+    "presentation": "30ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 22165,
+    "category": "Men"
+  },
+  {
+    "id": "ipvzze",
+    "name": "Emulsión Restoration - Hialurónico + Oil Control",
+    "presentation": "60g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 25025,
+    "category": "Men"
+  },
+  {
+    "id": "hrggi",
+    "name": "Espuma de limpieza - Piel tendencia acné",
+    "presentation": "150ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 18233,
+    "category": "Teens"
+  },
+  {
+    "id": "nkapp8",
+    "name": "Emulsión Hidratante - Caléndula, Manzanilla, Tilo, Aloe",
+    "presentation": "60g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 20735,
+    "category": "Teens"
+  },
+  {
+    "id": "91u82p",
+    "name": "Balsamo labial Teens - Argán, Coco, Almendras.",
+    "presentation": "10ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 13228,
+    "category": "Teens"
+  },
+  {
+    "id": "0tkfs",
+    "name": "Balsamo labial (Sangre de Drago + Hialurnónico)",
+    "presentation": "10ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 18233,
+    "category": "Extras"
+  },
+  {
+    "id": "5tjb2",
+    "name": "Fortalecedor de pestañas (Biotina + Inositol + Ortiga, Romero, Salvia)",
+    "presentation": "7ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 19663,
+    "category": "Extras"
+  },
+  {
+    "id": "xfq9lp",
+    "name": "Aceite de limpieza profunda (Argán + Centella)",
+    "presentation": "100ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 23595,
+    "category": "Fungi"
+  },
+  {
+    "id": "9evo0q",
+    "name": "Espuma de limpieza - Calma + Equilibrio (REISHI + Regaliz)",
+    "presentation": "150ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 19305,
+    "category": "Fungi"
+  },
+  {
+    "id": "k4kw3a",
+    "name": "Serum - Firmeza + Luminosidad (Bakuchiol + Tremella)",
+    "presentation": "50ml",
+    "brand": "NÜR",
+    "description": "",
+    "price": 26455,
+    "category": "Fungi"
+  },
+  {
+    "id": "gdwgpr",
+    "name": "Emulsión Reparadora (Shitake + Tremella + Cordyceps)",
+    "presentation": "50g",
+    "brand": "NÜR",
+    "description": "",
+    "price": 29315,
+    "category": "Fungi"
+  },
+  {
+    "id": "a3ywnw",
+    "name": "GENETIC",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 27390,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "md8z1h",
+    "name": "SHINING",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 27769,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "q0f7wc",
+    "name": "HARD",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 27098,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "ja7kqd",
+    "name": "SOFT",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 25853,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "41anc2",
+    "name": "ÓLEO TENSOR",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 27915,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "wyvfoh",
+    "name": "SHINING CON COLOR",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 28587,
+    "category": "ROSTRO"
+  },
+  {
+    "id": "nzd5ak",
+    "name": "EMULSIÓN",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 16132,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "uyz4sk",
+    "name": "BRUMAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 14576,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "u5i87",
+    "name": "EM. EXFOLIANTE",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 15159,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "b2w3gk",
+    "name": "AGUA MICELAR",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 16132,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "8q0q8",
+    "name": "LOCION",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 16132,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "cwcvdo",
+    "name": "GEL DE LIMPIEZA",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 17212,
+    "category": "LIMPIEZA"
+  },
+  {
+    "id": "hfpjg9",
+    "name": "ORQUIDEAS Y VITAMNA C Bright life",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 28217,
+    "category": "SÉRUMS"
+  },
+  {
+    "id": "ot7noh",
+    "name": "HUMECTANTE Y REPARADOR (contorno de ojos y labios)",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 27166,
+    "category": "SÉRUMS"
+  },
+  {
+    "id": "ngnta4",
+    "name": "ORQUÍDEAS E HIBISCUS Pro age",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 28703,
+    "category": "SÉRUMS"
+  },
+  {
+    "id": "0vchg",
+    "name": "JOJOBA, UVA y RESVERATROL",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 36001,
+    "category": "SÉRUMS"
+  },
+  {
+    "id": "dgcjrj",
+    "name": "SERUM CON EXOSOMAs y TREMELLA",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 41158,
+    "category": "SÉRUMS"
+  },
+  {
+    "id": "4fhos",
+    "name": "EMULGEL ORQUIDEAS MULTIFUNCIÓN",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 125,
+    "category": "EMULGEL ORQUIDEAS MULTIFUNCIÓN"
+  },
+  {
+    "id": "0snv5",
+    "name": "SILIIO Y ORO",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "fafn2j",
+    "name": "FANGO DE LA CORDILLERA",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 20433,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "8iko8e",
+    "name": "ALGAS Y TREMELLA",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "o9lkx",
+    "name": "CARBON",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18487,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "372zd",
+    "name": "LIP GLOSS HIALURÓNICO",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 41168,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "66624u",
+    "name": "HIALURÓNICO 100 ROLL ON",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 41168,
+    "category": "MÁSCARAS"
+  },
+  {
+    "id": "ml9dh",
+    "name": "VENOTÓNICO",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "mjbixf",
+    "name": "FLACIDEZ, ESTRÍAS, CELULITIS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "ltfwu",
+    "name": "LIPOLITICO/REDUCTOR",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "35sxx4",
+    "name": "HUMECTANTE ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 18857,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "94ahdn",
+    "name": "MANOS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 12921,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "y7d85q",
+    "name": "PIES",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 12921,
+    "category": "CORPORALES"
+  },
+  {
+    "id": "hueh3s",
+    "name": "PANTALLA SOLAR 30 ML",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 29190,
+    "category": "PROTECTOR SOLAR"
+  },
+  {
+    "id": "06zxtl",
+    "name": "PANTALLA SOLAR 60 ML",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 53515,
+    "category": "PROTECTOR SOLAR"
+  },
+  {
+    "id": "slmzj",
+    "name": "RESVERATROL Y ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 24325,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "7swbtk",
+    "name": "HIBISCUS Y ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 22379,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "v1htls",
+    "name": "TREMELLA Y ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 22379,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "9ue4he",
+    "name": "EQUISETUM Y ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 20433,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "enn23h",
+    "name": "JOJOBA, ARGÁN Y ORQUIDEAS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 26271,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "nlp2uv",
+    "name": "CAPILAR: ROSM, URT, CAP",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 20433,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "ni4tw",
+    "name": "AMPOLLA CICATRICES CON E",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 29005,
+    "category": "PROFESIONALES AMPOLLAS DERMAPEN o ELECTROPORACIÓN Uso Profesional exclusivamente"
+  },
+  {
+    "id": "1wzyr",
+    "name": "KIT",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 174167,
+    "category": "EXOSOMAS"
+  },
+  {
+    "id": "lsqwjo",
+    "name": "AMPOLLA + ENVASE GOTERO en promo *",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 115787,
+    "category": "EXOSOMAS"
+  },
+  {
+    "id": "kpfh76",
+    "name": "PARA FORMULAR 20 ML",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 156768,
+    "category": "EXOSOMAS"
+  },
+  {
+    "id": "6wscb1h",
+    "name": "CALCIFEROL K 30 COMPRIMIDOS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 19460,
+    "category": "EXOSOMAS"
+  },
+  {
+    "id": "v3eset",
+    "name": "CALCIFEROL K 60 COMPRIMIDOS",
+    "presentation": "",
+    "brand": "Bioalquimia",
+    "description": "",
+    "price": 34055,
+    "category": "EXOSOMAS"
+  },
+  {
+    "id": "product-1",
+    "name": "Fórmula Biónica Hidratante con Polihidroxiácidos pH 4",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 13900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-2",
+    "name": "Fórmula 10 Renovadora con Ácido Glicólico pH 4",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 11900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-3",
+    "name": "Fórmula 20 Renovadora con Ácido Glicólico pH 3.5",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12600,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-4",
+    "name": "Fórmula 30 Renovadora con Ácido Glicólico pH 3",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-5",
+    "name": "Fórmula 15 Renovadora con Ácido Láctico pH 3.5",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-6",
+    "name": "Fórmula 10 Renovadora con Ácido Mandélico pH 4",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 11900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-7",
+    "name": "Fórmula 20 Renovadora con Ácido Mandélico pH 3.5",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12600,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-8",
+    "name": "Fórmula 30 Renovadora con Ácido Mandélico pH 3",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-9",
+    "name": "Fórmula Renovadora con Ácido Mandélico + Gluconolactona pH 3.5",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 13900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-10",
+    "name": "Blend Enzimático",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "Peeling de Verano",
+    "price": 17900,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-11",
+    "name": "Keratolytic Mask",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "Peeling Blend: con Resorcina 10% + Ácido Salicílico al 10% pH 3",
+    "price": 18500,
+    "category": "Línea Facial - Ácidos Frutales"
+  },
+  {
+    "id": "product-12",
+    "name": "Crema con Ácido Glicólico al 10%",
+    "presentation": "50 g",
+    "brand": "Rouse Arey",
+    "description": "Humectante profundo",
+    "price": 14931,
+    "category": "Línea Facial - Cremas con Ácidos"
+  },
+  {
+    "id": "product-13",
+    "name": "Crema con Ácido Mandélico al 10%",
+    "presentation": "50 g",
+    "brand": "Rouse Arey",
+    "description": "Humectante profundo",
+    "price": 14931,
+    "category": "Línea Facial - Cremas con Ácidos"
+  },
+  {
+    "id": "product-14",
+    "name": "Bruma Descongestiva",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Malva, Manzanilla y Aloe Vera (Rosácea)",
+    "price": 14195,
+    "category": "Línea Facial - Brumas Faciales"
+  },
+  {
+    "id": "product-15",
+    "name": "Bruma Humectante",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Malva (Todo tipo de piel)",
+    "price": 14195,
+    "category": "Línea Facial - Brumas Faciales"
+  },
+  {
+    "id": "product-16",
+    "name": "Vitta Cell Botoshock Expression",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "Acmella Olaracea Extract (Gatulin Expression AF), Acetil Hexapeptide-3, Peptonas de Colágeno, Elastina, Células madre, Fosfolípidos, Vitamina E, Glicosaminoglicanos, Óleo de Rosa Mosqueta y Oliva. Crema para disminuir líneas de expresión y arrugas peribucales. Redefine el contorno de los labios.",
+    "price": 29700,
+    "category": "Línea Facial - Células Madres"
+  },
+  {
+    "id": "product-17",
+    "name": "Serum Botoshock .E Multiacción",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Argireline, Ácido Hialuronico, Silicio Orgánico, Peptona de Colageno + Celulas Madres de Camelia, Ortiga, Oliva, Proteína de Trigo, Peptona de Elastina. (Arrugas profundas). Serum para arrugas profundas, electroporable y de apoyo domiciliario.",
+    "price": 26851,
+    "category": "Línea Facial - Células Madres"
+  },
+  {
+    "id": "product-18",
+    "name": "Serum ADN + Cells .E Multiacción",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "ADN, Células de Camelia, Vitamina E, Hidrolizado de colágeno, Colesterol (Antiglicación), Rosa Mosqueta, Proteína de Trigo. Electroporable y de apoyo domiciliario.",
+    "price": 25426,
+    "category": "Línea Facial - Células Madres"
+  },
+  {
+    "id": "product-19",
+    "name": "Serum pro - Células Madres para párpados y labios",
+    "presentation": "60 g",
+    "brand": "Rouse Arey",
+    "description": "Acido Hialurónico, Células de Camelia, Colágeno, Fosfolípidos, Colesterol y Vitamina E.",
+    "price": 24885,
+    "category": "Línea Facial - Células Madres"
+  },
+  {
+    "id": "f9b5c3e0-6e1d-4f8a-9c0b-2e7a1f5d3c8b",
+    "name": "Vitta Cell New Generation",
+    "presentation": "60 g",
+    "price": 25.159,
+    "category": "Celulas Madres",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "prod-001",
+    "name": "Serum Reafirmante pro",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "DMAE + Células Madres de Camelia. DMAE, Acido Hialurónico, Colágeno, Vitamina E, Fosfolípidos y Colesterol. Flacidez cutánea",
+    "price": 26472,
+    "category": "Serum Facial"
+  },
+  {
+    "id": "prod-002",
+    "name": "Vitta Full Face Nutrition",
+    "presentation": "40 g",
+    "brand": "Rouse Arey",
+    "description": "Rosa Mosqueta, Peptona de Placenta, Lanolina, Peptona de Colágeno, Silicio Orgánico, Lavanda, Romero, Oliva, Ácido Hialurónico, Vitamina C y E, y Germen de Trigo. Reafirmante facial y periocular.",
+    "price": 16219,
+    "category": "Crema Facial"
+  },
+  {
+    "id": "prod-003",
+    "name": "Eye Contour",
+    "presentation": "40 g",
+    "brand": "Rouse Arey",
+    "description": "Para ojeras violáceas: Ácido Hialurónico, Aceite de Onagra, Placenta Hidrolizada, Colágeno Hidrolizado, Castaño de Indias, Gingko Biloba, Melilotus.",
+    "price": 18973,
+    "category": "Contorno de Ojos"
+  },
+  {
+    "id": "prod-004",
+    "name": "Specific Contour",
+    "presentation": "40 g",
+    "brand": "Rouse Arey",
+    "description": "Para Bolsas Palpebrales: Ácido Hialurónico + Descongestivos.",
+    "price": 18973,
+    "category": "Contorno de Ojos"
+  },
+  {
+    "id": "prod-005",
+    "name": "Vitta Anti Age Luxury",
+    "presentation": "50 g",
+    "brand": "Rouse Arey",
+    "description": "Peptona de Colágeno, Silicio Orgánico, Peptona de Elastina, Romero, Lavanda, Germen de Trigo, Aceites Naturales, Vitamina C y E, Lanolina, Ácido Cítrico y Peptona de Placenta. Regenerativa intensa.",
+    "price": 19041,
+    "category": "Crema Anti-Edad"
+  },
+  {
+    "id": "prod-006",
+    "name": "Vitta Anti Age Luxury",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Peptona de Colágeno, Silicio Orgánico, Peptona de Elastina, Romero, Lavanda, Germen de Trigo, Aceites Naturales, Vitamina C y E, Lanolina, Ácido Cítrico y Peptona de Placenta. Regenerativa intensa.",
+    "price": 29293,
+    "category": "Crema Anti-Edad"
+  },
+  {
+    "id": "prod-007",
+    "name": "Vitta +25 Humectante",
+    "presentation": "60 g",
+    "brand": "Rouse Arey",
+    "description": "Germen de Trigo, Lanolina, Oliva, Ácido Cítrico, PSA, Glucosa, Urea, Ácido Glutámico, Glycina, Alantoína, Lisina y Ácido Láctico. Humectante, antioxidante, previene el envejecimiento de la piel.",
+    "price": 18072,
+    "category": "Crema Humectante"
+  },
+  {
+    "id": "prod-008",
+    "name": "Retro - Age Reafirmante Intensivo",
+    "presentation": "60 g",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Equisetum, Germen de Trigo, Vitamina C, Jojoba, Rosa Mosqueta y Orquídea.",
+    "price": 18243,
+    "category": "Crema Reafirmante"
+  },
+  {
+    "id": "prod-009",
+    "name": "Retro - Age Reafirmante Intensivo",
+    "presentation": "125 g",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Equisetum, Germen de Trigo, Vitamina C, Jojoba, Rosa Mosqueta y Orquídea.",
+    "price": 26634,
+    "category": "Crema Reafirmante"
+  },
+  {
+    "id": "prod-010",
+    "name": "Crema Retro Plus + 45",
+    "presentation": "60 g",
+    "brand": "Rouse Arey",
+    "description": "Ácido Hialurónico, Ceramidas, DMAE, Equisetum, Germen de Trigo, Colágeno, Vitamina (A, B, C, E y K), Jojoba, Rosa Mosqueta y Orquídea.",
+    "price": 27507,
+    "category": "Crema Anti-Edad"
+  },
+  {
+    "id": "prod-011",
+    "name": "Humectoshock",
+    "presentation": "50 g",
+    "brand": "Rouse Arey",
+    "description": "Agentes Naturales Higroscópicos y Vitamina E (Pieles deshidratadas y secas)",
+    "price": 15449,
+    "category": "Crema Humectante"
+  },
+  {
+    "id": "prod-012",
+    "name": "Humectoshock",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Agentes Naturales Higroscópicos y Vitamina E (Pieles deshidratadas y secas)",
+    "price": 24246,
+    "category": "Crema Humectante"
+  },
+  {
+    "id": "prod-013",
+    "name": "Vitta Seda Face",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "(Aminoácidos) Aloe, Jojoba, Lanolina, Silicio Orgánico, Romero, Lavanda, Proteína de Trigo, Glucosa, Urea, Ácido Glutámico, Lysina, Alantoína, Ácido Láctico, Oliva. Para cualquier tipo de piel y cualquier edad. Equilibra el film hidrolipídico.",
+    "price": 19497,
+    "category": "Crema Facial"
+  },
+  {
+    "id": "prod-014",
+    "name": "Vitta Nutrition +60",
+    "presentation": "50 g",
+    "brand": "Rouse Arey",
+    "description": "Propylene Glycol, Glicerina, Ácido Esteárico, Jojoba, Vitamina E, Lanolina, Oliva, Vitamina C, Ácido Cítrico. Para pieles maduras y menopauscas. Ultranutritiva. Antioxidante. Antiarrugas.",
+    "price": 19526,
+    "category": "Crema Anti-Edad"
+  },
+  {
+    "id": "prod-015",
+    "name": "Serum C+E Multiacción",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Vitamina C y E (Antioxidante)",
+    "price": 17701,
+    "category": "Serum Facial"
+  },
+  {
+    "id": "prod-016",
+    "name": "Serum Shine 123 Multiacción",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Ácido Mandelico, Malva, Manzanilla, Avena, Altea, Aloe. Descongestiva, humectante. Otorga luminosidad a la piel. Apoyo domiciliario.",
+    "price": 15506,
+    "category": "Serum Facial"
+  },
+  {
+    "id": "prod-01",
+    "name": "D1 Corrector de Hiperpigmentación",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "Ácido Mandélico, Mandélico, Kójico. Uso profesional y apoyodomiciliario. Para todo tipo de piel",
+    "price": 21892,
+    "category": "Despigmentante Facial"
+  },
+  {
+    "id": "prod-02",
+    "name": "D2 Corrector de Hiperpigmentación",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "Hidroquinina, Ácido Retinóico, Ácido Glicólico. (invierno) .Solo Uso Profesional",
+    "price": 22904,
+    "category": "Despigmentante Facial"
+  },
+  {
+    "id": "prod-03",
+    "name": "D3 Corrector de Hiperpigmentación",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "Ácido Tranexámico, Ácido Azeláico, Kógico, Uva Ursi, Charrúa, Yerba Larca. Uso profesional y apoyo domiciliario. Para pieles sensibles.",
+    "price": 21892,
+    "category": "Despigmentante Facial"
+  },
+  {
+    "id": "prod-04",
+    "name": "Spectracare FPS 50+",
+    "presentation": "50 ml",
+    "brand": "Rouse Arey",
+    "description": "Protección UVA/UVB + Luz Azul (HEV). Textura Liviana de toque seco, hidrata sin dejar billo ni residuo blanco. Contiene Niacinamida 3% (trata y previene manchas), Ácido Hialurónico, Pantenol, Vitamina E y Aceite de Abisinia para una piel más luminosa, uniforme y protegida.",
+    "price": 26067,
+    "category": "Fotoprotector Facial"
+  },
+  {
+    "id": "prod-05",
+    "name": "Spectracare FPS 50+ CON COLOR",
+    "presentation": "50 ml",
+    "brand": "Rouse Arey",
+    "description": "Tono universal con Tecnología Color Match, que se adapta armoniosamente a pieles frías, cálidas y neutras. Unifica el tono, suaviza imperfecciones y deja un acabado natural con toque seco. Protección UVA/UVB + Luz Azul (HEV). Contiene Niacinamida 3%, Ácido Hialurónico, Pantenol y Aceite de Abisinia para hidratar, reparar y mantener la piel flexible y luminosa.",
+    "price": 27400,
+    "category": "Fotoprotector Facial"
+  },
+  {
+    "id": "prod-06",
+    "name": "Agua Micelar",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Demaquilla, limpia y tonifica. Spray",
+    "price": 15303,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-07",
+    "name": "Crema de Limpieza Frutal con AHA'S",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 14965,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-08",
+    "name": "Crema de Limpieza Frutal con AHA'S",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 19300,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-09",
+    "name": "Desmaquillante",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 15136,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-10",
+    "name": "Espuma Facial",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "Floral o Frutal",
+    "price": 14965,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-11",
+    "name": "Exfoliante en gel",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "(cutis graso - seborreico)",
+    "price": 13024,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-12",
+    "name": "Exfoliante en gel",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "(cutis graso - seborreico)",
+    "price": 19526,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-13",
+    "name": "Jabón con Acido Salicílico 3%",
+    "presentation": "100 g",
+    "brand": "Rouse Arey",
+    "description": "(Acné)",
+    "price": 12000,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-14",
+    "name": "Leche de Limpieza con Ác. Mandélico",
+    "presentation": "125 g",
+    "brand": "Rouse Arey",
+    "description": "Ácido Mandélico al 10%",
+    "price": 15792,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-15",
+    "name": "Leche de Limpieza con Ác. Mandélico",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "Ácido Mandélico al 10%",
+    "price": 18186,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-16",
+    "name": "Leche de Limpieza Oil Free para pieles sensibles",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 16390,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-17",
+    "name": "Vitta Remove Cells",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "Lanolina, Oliva, Ácido Cítrico, Microgránulos abrasivos, Propylene Glicol, Malva y Manzanilla.",
+    "price": 15763,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-18",
+    "name": "Vitta Remove Cells",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Lanolina, Oliva, Ácido Cítrico, Microgránulos abrasivos, Propylene Glicol, Malva y Manzanilla.",
+    "price": 19496,
+    "category": "Higiene Facial"
+  },
+  {
+    "id": "prod-19",
+    "name": "Loción Antiséptica, Antibacterial",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Salvia, Romero, Cloroxilenol",
+    "price": 13182,
+    "category": "Lociones Faciales"
+  },
+  {
+    "id": "prod-20",
+    "name": "Loción Antiséptica, Antibacterial",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Salvia, Romero, Cloroxilenol",
+    "price": 23488,
+    "category": "Lociones Faciales"
+  },
+  {
+    "id": "prod-21",
+    "name": "Loción Astringente",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Hamamelis y Caléndula (Piel Grasa)",
+    "price": 13182,
+    "category": "Lociones Faciales"
+  },
+  {
+    "id": "prod-22",
+    "name": "Loción Secativa",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Aerosil (Piel con Acné)",
+    "price": 13182,
+    "category": "Lociones Faciales"
+  },
+  {
+    "id": "prod-23",
+    "name": "Loción Secativa",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Aerosil (Piel con Acné)",
+    "price": 23488,
+    "category": "Lociones Faciales"
+  },
+  {
+    "id": "prod-001",
+    "name": "Máscara de Arcilla Astringente",
+    "presentation": "150 g",
+    "brand": "Rouse Arey",
+    "description": "Agua de Hamamelis",
+    "price": 13137,
+    "category": "Máscaras Faciales"
+  },
+  {
+    "id": "prod-002",
+    "name": "Máscara de Arcilla Astringente",
+    "presentation": "350 g",
+    "brand": "Rouse Arey",
+    "description": "Agua de Hamamelis",
+    "price": 19355,
+    "category": "Máscaras Faciales"
+  },
+  {
+    "id": "prod-003",
+    "name": "Máscara de Champagne",
+    "presentation": "Polvo 100 g + Solución Activadora 200 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 27136,
+    "category": "Máscaras Faciales"
+  },
+  {
+    "id": "e9e422f2-e325-4b13-a411-9a70034a7d65",
+    "name": "Máscara de Champagne: POLVO",
+    "presentation": "100 g",
+    "price": 13.561,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "1d8b1d91-3837-41a4-9e79-8809a7b483c6",
+    "name": "Máscara de Champagne: SOLUCIÓN ACTIVADORA",
+    "presentation": "200 cc",
+    "price": 13.561,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "2d8f95c4-722a-4315-8409-f3c92131975e",
+    "name": "Máscara Descongestiva (en gel)",
+    "presentation": "120 g",
+    "price": 16.02,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "0d62a341-3860-482a-a9f9-5e74ce9a4192",
+    "name": "Máscara Descongestiva (en gel)",
+    "presentation": "250 g",
+    "price": 22.319,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "4e758a01-4433-4074-a698-c91f137e06a6",
+    "name": "Serum Mask Face Multiacción",
+    "presentation": "125 g",
+    "price": 18.243,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "4b619736-22a9-4b61-9c86-13a1a441e8c4",
+    "name": "Máscara de Orquídeas",
+    "presentation": "125 g",
+    "price": 17.758,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "ee51ed1c-4f1c-42b4-8255-a6e5b2230a1e",
+    "name": "Máscara de Orquídeas",
+    "presentation": "200 g",
+    "price": 26.709,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "92f7e435-0810-4497-a75d-3d44161a0670",
+    "name": "Máscara Lifting Plaster",
+    "presentation": "Polvo 500 g + Solución Activadora 500 cc",
+    "price": 27.314,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "4b998f4e-2509-41e9-974a-4e2e1a387532",
+    "name": "Máscara Lifting Plaster: POLVO",
+    "presentation": "500 g",
+    "price": 13.664,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "1840dd55-8d99-4d6f-b14e-64478d10b005",
+    "name": "Máscara Lifting Plaster: SOLUCIÓN ACTIVADORA",
+    "presentation": "500 cc",
+    "price": 13.664,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "b3e34b9d-400a-4700-be87-73d2a7620a22",
+    "name": "Máscara Nutriflash de Naranja y Levadura",
+    "presentation": "250 g",
+    "price": 18.072,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "5285744f-d007-44df-9e32-211516e8b4e7",
+    "name": "Máscara Nutriflash de Naranja y Levadura",
+    "presentation": "500 g",
+    "price": 25.369,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "d13f9f95-97e2-491c-8e3b-d248b17b6296",
+    "name": "Máscara Oriental Geisha",
+    "presentation": "250 g",
+    "price": 24.599,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "02919323-b1d6-4443-8515-5606d1565e23",
+    "name": "Máscara Geisha + Bruma humectante",
+    "presentation": "Pack",
+    "price": 33.212,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "0d202d08-1647-494b-97e2-47526dd280a3",
+    "name": "Máscara Piel de Seda",
+    "presentation": "120 g",
+    "price": 15.449,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "1e7235a7-58a5-48b2-b1e9-467614e04899",
+    "name": "Máscara Piel de Seda",
+    "presentation": "250 g",
+    "price": 24.229,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "3127818e-4a6c-486a-86c5-43a18a5538e7",
+    "name": "Máscara Prebiótica Biodefense",
+    "presentation": "120 g",
+    "price": 24.001,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "060c44c5-0a91-4545-926e-41a4a44b9b0d",
+    "name": "Máscara Prebiótica Biodefense",
+    "presentation": "250 g",
+    "price": 33.173,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "25a8120b-2d33-41e9-a367-9c3f4e1f74f7",
+    "name": "Soft Mask",
+    "presentation": "100 g",
+    "price": 23.345,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "3c0d807e-72b6-4b61-a066-e0e640b618f0",
+    "name": "Máscara Strong Coffee",
+    "presentation": "120 g",
+    "price": 15.449,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "55b1f3c3-d731-41c3-a517-5645a278d6b9",
+    "name": "Máscara Strong Coffee",
+    "presentation": "250 g",
+    "price": 24.229,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "e67e3a9b-3199-47c0-a43b-314e300d84a3",
+    "name": "Máscara de Yerba Mate Reafirmante",
+    "presentation": "120 g",
+    "price": 17.188,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "a9e64e9a-7b3e-4613-8d05-4c6e94e221d6",
+    "name": "Máscara de Yerba Mate Reafirmante",
+    "presentation": "250 g",
+    "price": 25.433,
+    "category": "Máscaras Faciales",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "8f8e02b7-a066-4d1a-8e2b-2a2b3e401b3c",
+    "name": "Serum Ácido Hialurónico .E Multiacción",
+    "presentation": "12 cc c/u",
+    "price": 43.956,
+    "category": "Regeneradores Celulares",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "3b2e564c-2d0a-42c2-8e7c-86e5c9b14b0b",
+    "name": "Serum ADN .E Multiacción",
+    "presentation": "12 cc c/u",
+    "price": 43.956,
+    "category": "Regeneradores Celulares",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "prod-01",
+    "name": "Kit de Peptonas surtidas",
+    "presentation": "12 cc c/u",
+    "brand": "Rouse Arey",
+    "description": "Uso tópico x 5 unidades",
+    "price": 48855,
+    "category": "Kits"
+  },
+  {
+    "id": "prod-02",
+    "name": "Oleo de Germen de Trigo",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "con dosificador",
+    "price": 15449,
+    "category": "Aceites Faciales"
+  },
+  {
+    "id": "prod-03",
+    "name": "Oleo de Jojoba",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "con dosificador",
+    "price": 15449,
+    "category": "Aceites Faciales"
+  },
+  {
+    "id": "prod-04",
+    "name": "Óleo de Jojoba",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 25113,
+    "category": "Aceites Faciales"
+  },
+  {
+    "id": "prod-05",
+    "name": "Oleo de Rosa Mosqueta",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "con dosificador",
+    "price": 15449,
+    "category": "Aceites Faciales"
+  },
+  {
+    "id": "prod-06",
+    "name": "Óleo de Rosa Mosqueta",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 25113,
+    "category": "Aceites Faciales"
+  },
+  {
+    "id": "prod-07",
+    "name": "Face Teens",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Alcanfor, Urea, Ceramidas, Glicerina",
+    "price": 16982,
+    "category": "Tónicos Faciales"
+  },
+  {
+    "id": "prod-08",
+    "name": "Tónico 2 en 1 Seboregulador",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Agua, Carbopol, Alcohol, Urea y Mentol",
+    "price": 16982,
+    "category": "Tónicos Faciales"
+  },
+  {
+    "id": "prod-09",
+    "name": "Tónico Bio Activ",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "antioxidantes (Cutis graso)",
+    "price": 16982,
+    "category": "Tónicos Faciales"
+  },
+  {
+    "id": "prod-10",
+    "name": "Tónico Descongestivo",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Malva, Manzanilla, Aloe y Avena",
+    "price": 16191,
+    "category": "Tónicos Faciales"
+  },
+  {
+    "id": "prod-11",
+    "name": "Tónico Desestresante- Refrescante",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Aloe y Rosas",
+    "price": 16191,
+    "category": "Tónicos Faciales"
+  },
+  {
+    "id": "prod-12",
+    "name": "Hydra Cleaning A",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución con Ácido Láctico, Sábila y Manzanilla. Limpia profundamente la piel sin irritar. Calma e hidrata.",
+    "price": 40604,
+    "category": "Hydrafacial - Para todo tipo de piel"
+  },
+  {
+    "id": "prod-13",
+    "name": "Hydra Remove B",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución con Hammamelis, Vitamina A, E, C, Polifenoles y Luteína. Purifica y calma la piel luego de las extracciones.",
+    "price": 40604,
+    "category": "Hydrafacial - Para todo tipo de piel"
+  },
+  {
+    "id": "prod-14",
+    "name": "Hydra Ligth C",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución con Arbutina, Aloe Vera, Caléndula y Vitamina C. Efecto regenerador. Reduce la pigmentación y deja la piel iluminada.",
+    "price": 40604,
+    "category": "Hydrafacial - Para todo tipo de piel"
+  },
+  {
+    "id": "prod-15",
+    "name": "Hydra Nutrition O3 D",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución para ozonizar. Es ultranutritiva. Aporta Ácido Hialurónico, Péptidos de colágeno y elastina, otorga más tensión a la piel.",
+    "price": 40604,
+    "category": "Hydrafacial - Para todo tipo de piel"
+  },
+  {
+    "id": "prod-16",
+    "name": "Hydra Cleaning A",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución con Ácido Salicílico que limpia, elimina el exceso de sebo y desobstruye los poros.",
+    "price": 40604,
+    "category": "Hydrafacial - Piel grasa o acnéica"
+  },
+  {
+    "id": "prod-17",
+    "name": "Hydra Remove B",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución con Abedul, Tomillo, Salvia, Altea, Caléndula y Vitamina C. Equilibra la piel grasa, reduce los poros y mejora la apariencia.",
+    "price": 40604,
+    "category": "Hydrafacial - Piel grasa o acnéica"
+  },
+  {
+    "id": "prod-18",
+    "name": "Antiseptic Cleaning C",
+    "presentation": "500 ml",
+    "brand": "Rouse Arey",
+    "description": "Solución Antiséptica y Antibacterial. Posee Clorhexidina y Cloroxilenol, Salvia y Romero.",
+    "price": 40604,
+    "category": "Hydrafacial - Limpieza del Equipo"
+  },
+  {
+    "id": "prod-19",
+    "name": "Serum Signal Age .E Multiacción",
+    "presentation": "100 cc",
+    "brand": "Rouse Arey",
+    "description": "Argireline 10%, Vitamina E, Liposomado de: Ácido Hialurónico. Electroporable y de apoyo domiciliario.",
+    "price": 31743,
+    "category": "Electroporación Facial - Sueros"
+  },
+  {
+    "id": "prod-20",
+    "name": "Serum Flashcare .E",
+    "presentation": "100 cc",
+    "brand": "Rouse Arey",
+    "description": "Proteína de Trigo, Peptona de Colágeno, Peptona de Elastina, Ácido Hialurónico, Algisium C, Extracto de Soja, Romero, Lavanda. Vitamina A, E y C. (Shock de Nutrición). Electroporable y de apoyo domiciliario.",
+    "price": 31743,
+    "category": "Electroporación Facial - Sueros"
+  },
+  {
+    "id": "prod-21",
+    "name": "Gel Facial Reafirmante .E",
+    "presentation": "100 cc",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Liposomado de Ácido Hialurónico, Colágeno y Elastina.",
+    "price": 32410,
+    "category": "Electroporación Facial - Geles"
+  },
+  {
+    "id": "microneedling-001",
+    "name": "Ácido Hialurónico + Vit C Y E",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Restaura el volúmen de la piel, hidrata y repara la epidermis. Apto para Microneedling y apoyo domiciliario",
+    "price": 32552,
+    "category": "Microneedling"
+  },
+  {
+    "id": "microneedling-002",
+    "name": "Argireline + Ácido Hialurónico",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Disminuye y rellena las arrugas profundas. Apto para Microneedling y apoyo domiciliario",
+    "price": 32552,
+    "category": "Microneedling"
+  },
+  {
+    "id": "microneedling-003",
+    "name": "DMAE + Ácido Hialurónico",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Aumenta la firmeza y el tono de la piel. Apto para Microneedling y apoyo domiciliario",
+    "price": 32552,
+    "category": "Microneedling"
+  },
+  {
+    "id": "biotech-fusion-001",
+    "name": "EXOS+(INTENSE NUTRITION)",
+    "presentation": "10 ml cada vial (caja por 3 unidades)",
+    "brand": "Rouse Arey",
+    "description": "Combina exosomas con fosfolípidos promoviendo la reproducción celular. Aporta vitaminas, minerales, factores de crecimiento, lípidos, péptidos y material genético. SÓLO USO PROFESIONAL. NO INYECTABLE. Apto para Microneedling.",
+    "price": 71500,
+    "category": "Biotech Fusion"
+  },
+  {
+    "id": "biotech-fusion-002",
+    "name": "PDRN+(SKIN REJUVENATION)",
+    "presentation": "10 ml cada vial (caja por 3 unidades)",
+    "brand": "Rouse Arey",
+    "description": "La aplicación de este polinucleótido de origen marino inhibe la enzima hialuronidasa y elastasa. Ideal para tratar arrugas y estrías. SÓLO USO PROFESIONAL. NO INYECTABLE. Apto para Microneedling.",
+    "price": 70400,
+    "category": "Biotech Fusion"
+  },
+  {
+    "id": "biotech-fusion-003",
+    "name": "PEPT+ (MARINE FIRMING)",
+    "presentation": "10 ml cada vial (caja por 3 unidades)",
+    "brand": "Rouse Arey",
+    "description": "Otorga firmeza y elasticidad. Acción energizante, cicatrizante, antioxidante. Combina las propiedades del péptido de colágeno y ADN marino. SÓLO USO PROFESIONAL. NO INYECTABLE. Apto para Microneedling.",
+    "price": 67100,
+    "category": "Biotech Fusion"
+  },
+  {
+    "id": "booster-001",
+    "name": "Booster Nrf 2",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Nanoencapsulado. Refuerza la elasticidad y calidad del tejido debido al aporte de vitaminas E, C y D, Retinol, Piperina (pimienta negra), Silicio, Curcumin (Cúrcuma), ADN, Esteviósidos, Palta. Tiene una acción estimulante, antiinflamatoria y regeneradora debido a que activa el Nrf 2. Arrugas, Estrías y Cicatrices. Apto para microneedling y apoyo domiciliario.",
+    "price": 32549,
+    "category": "Booster"
+  },
+  {
+    "id": "booster-002",
+    "name": "Booster Glow",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Nanoencapsulado con Glutatión que protege del daño celular. Detoxifica de los residuos melánicos acumulados. Contiene Niacinamida (B3) que ilumina, unifica el tono y fortalece la barrera de la piel ante la deshidrtación y las imperfecciones. Reequilibra la piel grasa. Posee polisacáridos que disminuyen el signo visible del envejecimiento. Aclara, ilumina, unifica el color de la piel. Anti Age, Antioxidante. Apto para microneedling y apoyo domiciliario.",
+    "price": 32549,
+    "category": "Booster"
+  },
+  {
+    "id": "prod-001",
+    "name": "Booster ADN: Polinucleótidos- Exosomas- Fitoestimulinas",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "Realza las funciones vitales de las células, ayudando a la piel a defenderse activamente frente al estrés cutáneo y al envejecimiento. Estimula la formación de colágeno y MEC. Aporta a la piel Aminoácidos, Péptidos y Polinucleótidos de origen marino, Glicosaminoglicanos, Vesículas Vegetales (Exosomas de células madre vegetal), fosfolípidos y fitoestimulinas. Nutre profundamente a nivel celular, reduce arrugas, líneas de expresión, repara el daño de la piel mejorando su textura. Dismunuye las manchas y otorga firmeza. Uso: Se aplica en rostro y cuello hasta su total absorción. Apto para microneedling, electroporación y apoyo domiciliario.",
+    "price": 32549,
+    "category": "Productos para Aparatología: RADIOFRECUENCIA FACIAL"
+  },
+  {
+    "id": "prod-002",
+    "name": "Criogel Reafirmante Facial",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Germen de Trigo, Rosa Mosqueta, Gingo Biloba, Centella Asiática, Colágeno, Elastina, Vid Roja, Isoflavona de Soja",
+    "price": 21435,
+    "category": "Productos para Aparatología: RADIOFRECUENCIA FACIAL"
+  },
+  {
+    "id": "prod-003",
+    "name": "Criogel Reafirmante Facial",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Germen de Trigo, Rosa Mosqueta, Gingo Biloba, Centella Asiática, Colágeno, Elastina, Vid Roja, Isoflavona de Soja",
+    "price": 27353,
+    "category": "Productos para Aparatología: RADIOFRECUENCIA FACIAL"
+  },
+  {
+    "id": "prod-004",
+    "name": "Criogel Reafirmante Facial",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Germen de Trigo, Rosa Mosqueta, Gingo Biloba, Centella Asiática, Colágeno, Elastina, Vid Roja, Isoflavona de Soja",
+    "price": 38894,
+    "category": "Productos para Aparatología: RADIOFRECUENCIA FACIAL"
+  },
+  {
+    "id": "prod-005",
+    "name": "Máscara Biologica Body Tens",
+    "presentation": "(Polvo 150g + Solución Activadora 100cc)",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 31749,
+    "category": "LINEA CORPORAL - Máscaras Corporales para Flacidez"
+  },
+  {
+    "id": "prod-006",
+    "name": "Máscara Biologica Body Tens REPUESTO POLVO",
+    "presentation": "150 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 15874,
+    "category": "LINEA CORPORAL - Máscaras Corporales para Flacidez"
+  },
+  {
+    "id": "prod-007",
+    "name": "Máscara Biológica Body Tens REPUESTO SOLUCIÓN ACTIVADORA",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 17243,
+    "category": "LINEA CORPORAL - Máscaras Corporales para Flacidez"
+  },
+  {
+    "id": "prod-008",
+    "name": "Máscara de Tierras Volcánicas DETOX",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Polvo para Hidratar",
+    "price": 17913,
+    "category": "LINEA CORPORAL - Máscaras Corporales para Flacidez"
+  },
+  {
+    "id": "prod-009",
+    "name": "Máscara de Tierras Volcánicas DETOX",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Polvo para Hidratar",
+    "price": 26145,
+    "category": "LINEA CORPORAL - Máscaras Corporales para Flacidez"
+  },
+  {
+    "id": "prod-010",
+    "name": "Reafirmante Corporal Intensivo",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Colageno, Elastina, Equisetum, Romero, Vitamina C",
+    "price": 22766,
+    "category": "Neurocosmeticos con DMAE para Flacidez"
+  },
+  {
+    "id": "prod-011",
+    "name": "Yerba Mate Intensiv Reafirmante - Reductora",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Colágeno, Elastina, Fucus, Cafeína, Yerba mate",
+    "price": 21430,
+    "category": "Neurocosmeticos con DMAE para Flacidez"
+  },
+  {
+    "id": "prod-012",
+    "name": "Yerba Mate Intensiv Reafirmante - Reductora",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Colágeno, Elastina, Fucus, Cafeína, Yerba mate",
+    "price": 30237,
+    "category": "Neurocosmeticos con DMAE para Flacidez"
+  },
+  {
+    "id": "prod-013",
+    "name": "Yesoterapia Anticelulitica",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática, Carnitina.",
+    "price": 19413,
+    "category": "Yesos Corporales"
+  },
+  {
+    "id": "prod-014",
+    "name": "Yeso Ultratens",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Reafirmante con Colageno",
+    "price": 19413,
+    "category": "Yesos Corporales"
+  },
+  {
+    "id": "prod-015",
+    "name": "Yesolip",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Yeso cosmetológico de fraguado rápido con algas marinas",
+    "price": 19413,
+    "category": "Yesos Corporales"
+  },
+  {
+    "id": "prod-016",
+    "name": "Leche de Limpieza Corporal",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Ceramidas naturales",
+    "price": 20994,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-017",
+    "name": "Exfoliante Corporal Crema",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 17641,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-018",
+    "name": "Exfoliante Corporal Crema",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 23830,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-019",
+    "name": "Exfoliante Corporal Crema",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 36641,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-020",
+    "name": "Exfoliante Corporal Gel",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 17641,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-021",
+    "name": "Exfoliante Corporal Gel",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 23830,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-022",
+    "name": "Exfoliante Corporal Gel",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Carozo de Damasco y Durazno",
+    "price": 36641,
+    "category": "Productos Higiene Corporal"
+  },
+  {
+    "id": "prod-001",
+    "name": "Criogeno con Carnitina",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Centella, Gingo, Germen de trigo, Algisium C, Colageno, Carnitina. (Anticelilítico- Reductor)",
+    "price": 25738,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-002",
+    "name": "Criogeno con Carnitina",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Centella, Gingo, Germen de trigo, Algisium C, Colageno, Carnitina. (Anticelilítico- Reductor)",
+    "price": 35643,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-003",
+    "name": "Gel Criogeno Tripe Acción",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática pura concentrada, Mentol, Alcanfor, Carbopol, Urea. (Reductor Anticelulitico Reafirmante)",
+    "price": 17641,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-004",
+    "name": "Gel Criogeno Tripe Acción",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática pura concentrada, Mentol, Alcanfor, Carbopol, Urea. (Reductor Anticelulitico Reafirmante)",
+    "price": 25738,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-005",
+    "name": "Mousse Celustop",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Centella Asiatica, Castaña de Indias, Ginkgo Biloba, Oleo de Naranja con Vitamina C y E, Ruscus Acuelatus. (Celulitis Grado III)",
+    "price": 18104,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-006",
+    "name": "Mousse Celustop",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Centella Asiatica, Castaña de Indias, Ginkgo Biloba, Oleo de Naranja con Vitamina C y E, Ruscus Acuelatus. (Celulitis Grado III)",
+    "price": 26884,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-007",
+    "name": "Mousse Celustop",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Centella Asiatica, Castaña de Indias, Ginkgo Biloba, Oleo de Naranja con Vitamina C y E, Ruscus Acuelatus. (Celulitis Grado III)",
+    "price": 35916,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-008",
+    "name": "Mousse de Yerba Mate",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Máscara Anticelulitica. Dextrina, Glucosa, Pentosa, Xantina, Teophylina, Cafeína",
+    "price": 25738,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-009",
+    "name": "Mousse de Yerba Mate",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Máscara Anticelulitica. Dextrina, Glucosa, Pentosa, Xantina, Teophylina, Cafeína",
+    "price": 37391,
+    "category": "Tratamiento Anticelulitico"
+  },
+  {
+    "id": "prod-010",
+    "name": "Corrector de Estrías Concentrado",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Rosa Mosqueta, Colágeno, Elastina, Placenta, Pentaglicanos, Centella Asiática, Germen de Trigo, Vitamina A, E y C.",
+    "price": 21166,
+    "category": "Tratamiento para Estrías"
+  },
+  {
+    "id": "prod-011",
+    "name": "Corrector de Estrías Concentrado",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Rosa Mosqueta, Colágeno, Elastina, Placenta, Pentaglicanos, Centella Asiática, Germen de Trigo, Vitamina A, E y C.",
+    "price": 29838,
+    "category": "Tratamiento para Estrías"
+  },
+  {
+    "id": "prod-012",
+    "name": "Activador Venotonico",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Hamamelis, Castaña de India, Rusco, Vid Roja, Gingo Biloba, Melilotus y Vitamina C. (Arañitas vasculares)",
+    "price": 17804,
+    "category": "Tratamiento para Piernas Cansadas"
+  },
+  {
+    "id": "prod-013",
+    "name": "Activador Venotonico",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Hamamelis, Castaña de India, Rusco, Vid Roja, Gingo Biloba, Melilotus y Vitamina C. (Arañitas vasculares)",
+    "price": 25738,
+    "category": "Tratamiento para Piernas Cansadas"
+  },
+  {
+    "id": "prod-014",
+    "name": "Activador Venotonico",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Hamamelis, Castaña de India, Rusco, Vid Roja, Gingo Biloba, Melilotus y Vitamina C. (Arañitas vasculares)",
+    "price": 37205,
+    "category": "Tratamiento para Piernas Cansadas"
+  },
+  {
+    "id": "prod-015",
+    "name": "Gel Criogeno Descongestivo Varigel",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Malva, manzanilla y Aloe. (Piernas edematizadas)",
+    "price": 25738,
+    "category": "Tratamiento para Piernas Cansadas"
+  },
+  {
+    "id": "prod-016",
+    "name": "Gel Criogeno Descongestivo Varigel",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Malva, manzanilla y Aloe. (Piernas edematizadas)",
+    "price": 37304,
+    "category": "Tratamiento para Piernas Cansadas"
+  },
+  {
+    "id": "prod-017",
+    "name": "Criogeno Reafirmante Ultrafirm",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Colágeno, Elastina, Germen de Trigo, Complejo Glicolico Reafirmante, Centella.",
+    "price": 24566,
+    "category": "Tratamiento Shock Reductor - Reafirmante"
+  },
+  {
+    "id": "prod-018",
+    "name": "Criogeno Reafirmante Ultrafirm",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Colágeno, Elastina, Germen de Trigo, Complejo Glicolico Reafirmante, Centella.",
+    "price": 37391,
+    "category": "Tratamiento Shock Reductor - Reafirmante"
+  },
+  {
+    "id": "prod-019",
+    "name": "Criogeno Reductor Modelador",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Centella, Fucus, Cayena, Té verde, Romero. Frutilla o limón.",
+    "price": 22407,
+    "category": "Tratamiento Shock Reductor - Reafirmante"
+  },
+  {
+    "id": "prod-020",
+    "name": "Criogeno Reductor Modelador",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Centella, Fucus, Cayena, Té verde, Romero. Frutilla o limón.",
+    "price": 30785,
+    "category": "Tratamiento Shock Reductor - Reafirmante"
+  },
+  {
+    "id": "prod-021",
+    "name": "Solución Activadora de Vendas Frías",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "(Activa el frío en el gel criogeno)",
+    "price": 21618,
+    "category": "Tratamiento Shock Reductor - Reafirmante"
+  },
+  {
+    "id": "prod-022",
+    "name": "Lipo Green Spray",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Extracto Glicólico de Café Verde, Guaraná y Fucus (Lipolítico)",
+    "price": 19277,
+    "category": "Tratamiento para distintos tipos de Adiposidad"
+  },
+  {
+    "id": "hzwp13",
+    "name": "Lipo Green Spray",
+    "presentation": "500 cc",
+    "price": 32.827,
+    "category": "Tratamiento para distintos tipos de Adiposidad",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "y9m55p",
+    "name": "Mousse para masajes BODYHOT",
+    "presentation": "250 g",
+    "price": 18.104,
+    "category": "Tratamiento para distintos tipos de Adiposidad",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "mibmsy",
+    "name": "Mousse para masajes BODYHOT",
+    "presentation": "500 g",
+    "price": 26.938,
+    "category": "Tratamiento para distintos tipos de Adiposidad",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "c3dzgs",
+    "name": "Mousse para masajes BODYHOT",
+    "presentation": "1 Kg",
+    "price": 40.377,
+    "category": "Tratamiento para distintos tipos de Adiposidad",
+    "brand": "Rouse Arey"
+  },
+  {
+    "id": "prod-01",
+    "name": "Mousse para masajes BODY MODEL",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática, Fucus, Ruscus, Hedera Helix y Guaraná",
+    "price": 17123,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-02",
+    "name": "Mousse para masajes BODY MODEL",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática, Fucus, Ruscus, Hedera Helix y Guaraná",
+    "price": 25738,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-03",
+    "name": "Mousse para masajes BODY MODEL",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática, Fucus, Ruscus, Hedera Helix y Guaraná",
+    "price": 37304,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-04",
+    "name": "Mousse para masajes ULTRA BODY",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Cafeína, Fucus, Centella, Té Verde y Romero",
+    "price": 18322,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-05",
+    "name": "Mousse para masajes ULTRA BODY",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Cafeína, Fucus, Centella, Té Verde y Romero",
+    "price": 27047,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-06",
+    "name": "Mousse para masajes ULTRA BODY",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "Carnitina, Cafeína, Fucus, Centella, Té Verde y Romero",
+    "price": 37391,
+    "category": "Tratamiento Corporal"
+  },
+  {
+    "id": "prod-07",
+    "name": "Crema para Manos con Óleo de Sésamo",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Óleo de Sésamo, Manteca de Karité, Vitaminas A y E, Peptonas de Colágeno y Placenta.",
+    "price": 18104,
+    "category": "Tratamiento para Manos"
+  },
+  {
+    "id": "prod-08",
+    "name": "Vitta Firm Body Antiage",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "Lanolina, Silicio Orgánico, Romero, Lavanda, Germen de Trigo, Oliva, Ácido Cítrico, Ácido Ascórbico, Jojoba.",
+    "price": 19886,
+    "category": "Tratamiento de Rehidratación Corporal"
+  },
+  {
+    "id": "prod-09",
+    "name": "Vitta All Body",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "Germen de Trigo, Jojoba, Rosa Mosqueta, Lanolina, Oliva, Ácido Cítrico. Enriquecida con ceramidas.",
+    "price": 16718,
+    "category": "Tratamiento de Rehidratación Corporal"
+  },
+  {
+    "id": "prod-10",
+    "name": "Emulsión Corporal Superhidratante",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "Urea, Ácido Láctico, Germen de Trigo, Jojoba, Rosa Mosqueta y Vitamina E. (Psoriasis)",
+    "price": 17804,
+    "category": "Tratamiento de Rehidratación Corporal"
+  },
+  {
+    "id": "prod-11",
+    "name": "Emulsión Corporal Superhidratante",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Urea, Ácido Láctico, Germen de Trigo, Jojoba, Rosa Mosqueta y Vitamina E. (Psoriasis)",
+    "price": 31768,
+    "category": "Tratamiento de Rehidratación Corporal"
+  },
+  {
+    "id": "prod-12",
+    "name": "Glicoderm Fórmula 10 pH 4 (Body & Scalp)",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Fórmula en spray con Ácido Glicólico que ayuda a renovar suavemente piel. Apto para aplicar en cuerpo y cuero cabelludo. ¡NOVEDAD!",
+    "price": 16456,
+    "category": "Peeling Hidratante"
+  },
+  {
+    "id": "prod-13",
+    "name": "Anticongelante para Criolipólisis",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "(líquido para membranas)",
+    "price": 29856,
+    "category": "Aparatología Corporal - Criolipólisis"
+  },
+  {
+    "id": "prod-14",
+    "name": "Gel Anticongelante para Criolipólisis",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 29856,
+    "category": "Aparatología Corporal - Criolipólisis"
+  },
+  {
+    "id": "prod-15",
+    "name": "Gel Anticongelante para Criolipólisis",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 38778,
+    "category": "Aparatología Corporal - Criolipólisis"
+  },
+  {
+    "id": "prod-16",
+    "name": "Serum Therapy Cell .E",
+    "presentation": "250 cc",
+    "brand": "Rouse Arey",
+    "description": "(concentrado anticelulítico) Romero, Germen de Trigo, Centella Asiática, Enebro, Hedera Helix, Gingo Biloba. Electroporable y de apoyo domiciliario.",
+    "price": 24740,
+    "category": "Aparatología Corporal - Electroporación Corporal"
+  },
+  {
+    "id": "prod-17",
+    "name": "Serum Therapy Cell .E",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "(concentrado anticelulítico) Romero, Germen de Trigo, Centella Asiática, Enebro, Hedera Helix, Gingo Biloba. Electroporable y de apoyo domiciliario.",
+    "price": 35348,
+    "category": "Aparatología Corporal - Electroporación Corporal"
+  },
+  {
+    "id": "prod-18",
+    "name": "Gel Electroporación Corporal Reafirmante",
+    "presentation": "100 cc",
+    "brand": "Rouse Arey",
+    "description": "DMAE, Ácido Hialurónico, Elastina, Complejo Liposomado.",
+    "price": 30119,
+    "category": "Aparatología Corporal - Electroporación Corporal"
+  },
+  {
+    "id": "prod-19",
+    "name": "Serum Therapy Slim",
+    "presentation": "250 cc",
+    "brand": "Rouse Arey",
+    "description": "Romero, Centella Asiática, Fucus, Cayena, Té Verde. Fórmula liposomada electroporable y de apoyo domiciliario.",
+    "price": 24740,
+    "category": "Aparatología Corporal - Electroporación Corporal"
+  },
+  {
+    "id": "prod-20",
+    "name": "Serum Therapy Slim",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Romero, Centella Asiática, Fucus, Cayena, Té Verde. Fórmula liposomada electroporable y de apoyo domiciliario.",
+    "price": 35348,
+    "category": "Aparatología Corporal - Electroporación Corporal"
+  },
+  {
+    "id": "prod-21",
+    "name": "Ionto Anticelulitico",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Centella Asiática, Gingo Biloba, Castaña de India, Romero, Iones en Suspensión",
+    "price": 22930,
+    "category": "Aparatología Corporal - Corriente Galvánica"
+  },
+  {
+    "id": "prod-22",
+    "name": "Ionto Reafirmante",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "Ruscogenina, Mucopolisacáridos, Algisium C, Ruscus Acuelatus, Cardo Mariano, Iones en Suspensión",
+    "price": 22930,
+    "category": "Aparatología Corporal - Corriente Galvánica"
+  },
+  {
+    "id": "prod-001",
+    "name": "Ionto Reductor",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 22930,
+    "category": "Aparatología"
+  },
+  {
+    "id": "prod-002",
+    "name": "Criogel Reafirmante Corporal",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 29719,
+    "category": "Aparatología: Radiofrecuencia Corporal"
+  },
+  {
+    "id": "prod-003",
+    "name": "Criogel Reafirmante Corporal",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 38097,
+    "category": "Aparatología: Radiofrecuencia Corporal"
+  },
+  {
+    "id": "prod-004",
+    "name": "Gel para Ultracavitador",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 22794,
+    "category": "Aparatología: Ultracavitador"
+  },
+  {
+    "id": "prod-005",
+    "name": "Gel para Ultracavitador",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 34577,
+    "category": "Aparatología: Ultracavitador"
+  },
+  {
+    "id": "prod-006",
+    "name": "Gel Neutro",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 9409,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-007",
+    "name": "Gel Neutro",
+    "presentation": "4 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 27664,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-008",
+    "name": "Gel con Fucus",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 21376,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-009",
+    "name": "Gel con Fucus",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 30934,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-010",
+    "name": "Ultracell",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 21376,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-011",
+    "name": "Ultracell",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 30934,
+    "category": "Aparatología: Ultrasonido"
+  },
+  {
+    "id": "prod-012",
+    "name": "Vela Modeling",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 21240,
+    "category": "Aparatología: Vela"
+  },
+  {
+    "id": "prod-013",
+    "name": "Vela Modeling",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 41664,
+    "category": "Aparatología: Vela"
+  },
+  {
+    "id": "prod-014",
+    "name": "Aceites Esenciales",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 13307,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-015",
+    "name": "Esencias para Hornitos o Aromatizadores Ultrasónicos",
+    "presentation": "12 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 8678,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-016",
+    "name": "Jabón Líquido Antiséptico Glicerinado",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 14113,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-017",
+    "name": "Óleo Base para Masajes neutro",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 22509,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-018",
+    "name": "Óleos para Masajes",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 15818,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-019",
+    "name": "Óleos para Masajes",
+    "presentation": "500 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 22509,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-020",
+    "name": "Emulsión para Masaje Sensorial",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 26070,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prod-021",
+    "name": "Sales de Baño",
+    "presentation": "1 Kg",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 11152,
+    "category": "Aromaterapia - SPA"
+  },
+  {
+    "id": "prd-001",
+    "name": "Perfume Armonizador Concentrado",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "Coco y Vainilla- Flor de Loto- Frutilla- Lavanda- Limón- Naranja.",
+    "price": 13251,
+    "category": "Perfumes y Armonizadores"
+  },
+  {
+    "id": "prd-002",
+    "name": "Máscara de Almendras y Miel",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Fosfolípidos, Óleos de Chía y Jojoba, Betacaroteno, Vitamina E y Peptona de Placenta. Extracto de Almendras y Miel (Pieles menopáusicas, secas, deshidratadas)",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-003",
+    "name": "Máscara de Almendras y Miel",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Fosfolípidos, Óleos de Chía y Jojoba, Betacaroteno, Vitamina E y Peptona de Placenta. Extracto de Almendras y Miel (Pieles menopáusicas, secas, deshidratadas)",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-004",
+    "name": "Máscara de Chocolate y Argán",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Chocolate (polifenoles), Óleo de Argán y Jojoba, Lanolina y Vitamina E. (Nutriva y tonificante)",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-005",
+    "name": "Máscara de Chocolate y Argán",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Chocolate (polifenoles), Óleo de Argán y Jojoba, Lanolina y Vitamina E. (Nutriva y tonificante)",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-006",
+    "name": "Máscara de Limón y Pomelo",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Extracto de Tea Tree, Malva, Hamamelis. Esencia de Limón y Pomelo (Pieles grasas).",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-007",
+    "name": "Máscara de Limón y Pomelo",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Extracto de Tea Tree, Malva, Hamamelis. Esencia de Limón y Pomelo (Pieles grasas).",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-008",
+    "name": "Máscara de Mango y Maracuyá",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Óleo Natural de Sésamo, Extracto de Mango y Maracuyá, Vitaminas C y E, Pentaglicanos (Hidratante, nutritiva, antioxidante y regenerativa)",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-009",
+    "name": "Máscara de Mango y Maracuyá",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Óleo Natural de Sésamo, Extracto de Mango y Maracuyá, Vitaminas C y E, Pentaglicanos (Hidratante, nutritiva, antioxidante y regenerativa)",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-010",
+    "name": "Máscara de Manzana y Papaya",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Alfahidroxiácidos, Óleo de Primula, Extracto de Manzana, Papaya, Pectina y Vitamina C (Luminosidad)",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-011",
+    "name": "Máscara de Manzana y Papaya",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Alfahidroxiácidos, Óleo de Primula, Extracto de Manzana, Papaya, Pectina y Vitamina C (Luminosidad)",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-012",
+    "name": "Máscara de Uva y Pera",
+    "presentation": "250 g",
+    "brand": "Rouse Arey",
+    "description": "Óleos Naturales de Semillas de Uva y Germen de Trigo, Lanolina, Vitamina E, Extracto de Pera (Nutritiva piel seca o normal)",
+    "price": 16737,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-013",
+    "name": "Máscara de Uva y Pera",
+    "presentation": "500 g",
+    "brand": "Rouse Arey",
+    "description": "Óleos Naturales de Semillas de Uva y Germen de Trigo, Lanolina, Vitamina E, Extracto de Pera (Nutritiva piel seca o normal)",
+    "price": 23634,
+    "category": "Máscaras Faciales y Corporales Superfood"
+  },
+  {
+    "id": "prd-014",
+    "name": "Good Shampoo Vitamin for Beauty",
+    "presentation": "250 cc",
+    "brand": "Rouse Arey",
+    "description": "Biotina, Pro B5 (pantenol), Ortiga, Quina, Romero, Salvia y Aloe Vera. Frena la caída del cabello. Estimula la circulación sanguínea. Limpia el cuero cabelludo y mantiene el pH equilibrado.",
+    "price": 21569,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prd-015",
+    "name": "Good Acondicionador Vitamin for Beauty",
+    "presentation": "250 cc",
+    "brand": "Rouse Arey",
+    "description": "Biotina Pro B5 (pantenol), Ortiga, Quina, Romero, Salvia y Aloe Vera. Frena la caída del cabello. Aporta volúmen y vitalidad.",
+    "price": 21569,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prd-016",
+    "name": "COMBO GOOD: Shampoo + Acondicionador",
+    "presentation": "250 cc c/u",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 36657,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prd-017",
+    "name": "Good Hair Mask",
+    "presentation": "200g",
+    "brand": "Rouse Arey",
+    "description": "Biotina (Vitamina H), Té Verde y Lanolina. Restaura todo tipo de cabellos, dejándolo suave y sin frizz.",
+    "price": 29925,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prd-018",
+    "name": "Good Hair Restorer",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "Biotina, Pantenol, Peptona de Placenta, Romero, Ortiga y Aloe Vera. Fortalece el bulbo y evita la caída del cabello tanto en hombres como en mujeres. Para electroporar y apoyo domiciliario.",
+    "price": 23428,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prod-001",
+    "name": "Good Capillary Thread (Hilo capilar)",
+    "presentation": "35 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 25942,
+    "category": "Cuidado Capilar"
+  },
+  {
+    "id": "prod-002",
+    "name": "Tónico 2 en 1 For Men",
+    "presentation": "125 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 16972,
+    "category": "Línea Hombre"
+  },
+  {
+    "id": "prod-003",
+    "name": "Tónico Bio Activ For Men",
+    "presentation": "125 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 16972,
+    "category": "Línea Hombre"
+  },
+  {
+    "id": "prod-004",
+    "name": "Gel Exfoliante For Men",
+    "presentation": "120 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 15067,
+    "category": "Línea Hombre"
+  },
+  {
+    "id": "prod-005",
+    "name": "Vitta Bronze",
+    "presentation": "200 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 17501,
+    "category": "Línea Verano"
+  },
+  {
+    "id": "prod-006",
+    "name": "Gel Post Solar con dosificador",
+    "presentation": "200 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 15626,
+    "category": "Línea Verano"
+  },
+  {
+    "id": "prod-007",
+    "name": "Repelente ecológico",
+    "presentation": "125 cc",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 12265,
+    "category": "Línea Ecológica"
+  },
+  {
+    "id": "prod-008",
+    "name": "KIT BÁSICO",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 46856,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-009",
+    "name": "KIT DE MÁSCARAS",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 24053,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-010",
+    "name": "KIT PIEL GRASA",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 32356,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-011",
+    "name": "KIT PIEL SECA",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 24053,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-012",
+    "name": "KIT PIEL SENSIBLE",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 31555,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-013",
+    "name": "KIT PIEL MIXTA",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 37052,
+    "category": "Kits Estudiantes"
+  },
+  {
+    "id": "prod-014",
+    "name": "KIT ACCESORIOS PARA GABINETE",
+    "presentation": "",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 45098,
+    "category": "Kits y Accesorios"
+  },
+  {
+    "id": "prod-015",
+    "name": "Muestras Faciales paquete por 6 unidades surtidas",
+    "presentation": "15 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 24049,
+    "category": "Muestras"
+  },
+  {
+    "id": "prod-016",
+    "name": "Muestras Corporales paquete x 6 unidades surtidas",
+    "presentation": "30 g",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 24049,
+    "category": "Muestras"
+  },
+  {
+    "id": "prod-001",
+    "name": "Pack de bolsas GRANDES",
+    "presentation": "30 x 40 cm, 25 unidades",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 11631,
+    "category": "Bolsas"
+  },
+  {
+    "id": "prod-002",
+    "name": "Pack de bolsas CHICAS",
+    "presentation": "24 x 30 cm, 25 unidades",
+    "brand": "Rouse Arey",
+    "description": "",
+    "price": 8768,
+    "category": "Bolsas"
+  }
+]
