@@ -11,6 +11,11 @@ export default function AdminPage() {
   const [results, setResults] = useState<Product[]>([]);
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [managementSearch, setManagementSearch] = useState('');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [passInput, setPassInput] = useState('');
+  const [authError, setAuthError] = useState('');
+  const [error, setError] = useState('');
+  const [saveStatus, setSaveStatus] = useState('');
 
   const fetchExisting = async () => {
     const res = await fetch('/api/products');
