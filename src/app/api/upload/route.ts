@@ -51,11 +51,15 @@ export async function POST(req: NextRequest) {
       let currentCategory = "General";
       
       for (const row of wsData) {
+        if (!row || row.length === 0) continue;
+        
         // Limpieza básica de la fila para evitar problemas con celdas "vacías" que vienen con espacios
         const cleanRow = row.map((c: any) => (c === null || c === undefined) ? "" : String(c).trim());
         
+        if (cleanRow.length === 0) continue;
+
         // REGLA DE ENCABEZADO: Solo saltamos si es la fila de títulos exactos
-        const firstCell = cleanRow[0].toUpperCase();
+        const firstCell = (cleanRow[0] || "").toUpperCase();
         if (firstCell === 'PRODUCTO' || firstCell === 'PRODUCTOS' || firstCell === 'NOMBRE') continue;
         
         // Detección de Categoría (si la primera celda es texto y las otras están vacías)
