@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-2.5-flash",
       generationConfig: { responseMimeType: "application/json", maxOutputTokens: 8192 }
     });
     
@@ -161,41 +161,6 @@ export async function POST(req: NextRequest) {
 
     if (!Array.isArray(parsedData)) {
       parsedData = [parsedData];
-    }
-
-    // 🕵️‍♂️ FASE DE AUTO-AUDITORÍA (SOLO PDF) - IDEA BRILLANTE DEL USUARIO
-    if (file.name.endsWith('.pdf') && parsedData.length > 0) {
-       console.log(`Iniciando Auto-Auditoría. Pase 1 encontró: ${parsedData.length} items`);
-       try {
-           const auditPrompt = `Acabas de realizar la primera lectura y lograste extraer ${parsedData.length} productos de esta página.\n`
-             + `Lista extraída: ${JSON.stringify(parsedData.map(p => p.name))}\n\n`
-             + `TU NUEVA TAREA (AUTO-AUDITORÍA DE CALIDAD): Controla rigurosamente el documento de nuevo contra la lista corta que hiciste.\n`
-             + `Busca CUALQUIER producto, renglón u opción que se te haya "saltado" (especialmente variantes que se llamen casi igual pero tengan gramaje o función distinta, ej. varios IONTO seguidos).\n`
-             + `Devuelve un ARRAY JSON EXACTO [] que contenga ÚNICA Y EXCLUSIVAMENTE a los productos que TE OLVIDASTE de poner en tu primera lista.\n`
-             + `Si tu primera lectura fue 100% perfecta, sé honesto y simplemente devuelve un array vacío: []\n`
-             + `La estructura JSON sigue siendo la misma: { "id": "uuid", "name": "...", "presentation": "Gramaje", "price": numerico, "category": "..." }`;
-           
-           const auditParts = [
-             { text: auditPrompt },
-             parts[1] // Re-enviamos el buffer del PDF sin modificar
-           ];
-           
-           const auditResult = await model.generateContent(auditParts);
-           const auditText = auditResult.response.text();
-           let clnAudit = auditText.replace(/```json/g, '').replace(/```/g, '').trim();
-           let stAud = clnAudit.indexOf('[');
-           let endAud = clnAudit.lastIndexOf(']');
-           
-           if (stAud !== -1 && endAud !== -1) {
-              const extraData = JSON.parse(clnAudit.substring(stAud, endAud + 1));
-              if (Array.isArray(extraData) && extraData.length > 0) {
-                 console.log(`¡Auto-Auditoría Exitosa! Recuperados ${extraData.length} items ocultos.`);
-                 parsedData = [...parsedData, ...extraData];
-              }
-           }
-       } catch(e) {
-           console.log("Error silencioso en Auto-Auditoría (seguimos adelante):", e);
-       }
     }
 
     // SANITIZACIÓN FINAL ANTIALUCINACIONES:
