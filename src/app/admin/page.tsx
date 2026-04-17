@@ -101,6 +101,7 @@ export default function AdminPage() {
           const chunkBlob = new Blob([chunkBytes as any], { type: 'application/pdf' });
           const fd = new FormData();
           fd.append('file', chunkBlob, `page_${i}.pdf`);
+          fd.append('brand', brand);
           // Pequeña pausa para no saturar la API
           await new Promise(r => setTimeout(r, 2000));
 

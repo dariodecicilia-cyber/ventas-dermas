@@ -166,10 +166,11 @@ export async function POST(req: NextRequest) {
     // SANITIZACIÓN FINAL ANTIALUCINACIONES:
     // Obligamos a que la marca de todos los productos extraídos por la IA sea ESTRICTAMENTE 
     // la que seleccionaste en el menú, ignorando cualquier locura o "rayita" que haya inventado la IA.
-    parsedData = parsedData.map(p => ({
+    parsedData = parsedData.map((p, idx) => ({
        ...p,
        brand: brand || "Desconocida",
-       id: Math.random().toString(36).substring(7) // React key única e impenetrable
+       id: Math.random().toString(36).substring(7), // React key única e impenetrable
+       order_index: idx // Preservamos el orden de lectura de la IA
     }));
 
     return NextResponse.json({ success: true, count: parsedData.length, products: parsedData });
