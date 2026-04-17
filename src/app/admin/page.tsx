@@ -123,7 +123,7 @@ export default function AdminPage() {
               retries++;
               if (retries >= 3) throw err;
               setStatusText(`⚠️ Reintentando página ${i+1}... (Intento ${retries+1})`);
-              await new Promise(r => setTimeout(r, 3000)); // Esperar 3s antes de reintentar
+              await new Promise(r => setTimeout(r, 7000)); // Esperar 7s antes de reintentar
             }
           }
         }
