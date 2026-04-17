@@ -116,7 +116,12 @@ export default function AdminPage() {
               }
               const data = await res.json();
               if (data.products) {
-                currentProducts = [...currentProducts, ...data.products];
+                // Asignamos un orden global basado en lo que ya tenemos acumulado
+                const globalProducts = data.products.map((p: any, idx: number) => ({
+                  ...p,
+                  order_index: currentProducts.length + idx
+                }));
+                currentProducts = [...currentProducts, ...globalProducts];
                 setResults([...currentProducts]);
               }
               success = true;
