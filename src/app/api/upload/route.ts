@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       generationConfig: { responseMimeType: "application/json", maxOutputTokens: 8192 }
     });
     
@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
 
     let parts: any[] = [{ text: promptInstructions }];
 
-    if (file.name.endsWith('.pdf')) {
+    if (file.name.toLowerCase().endsWith('.pdf')) {
       // RETORNO A VÍA VISUAL: El archivo original de texto plano rompe las tablas de precios, así que volvimos al modelo visual puro
       parts.push({
         inlineData: {

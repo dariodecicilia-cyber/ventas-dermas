@@ -86,7 +86,7 @@ export default function AdminPage() {
     setStatusText('Iniciando maquinaria de escaneo...');
 
     try {
-      if (file.name.endsWith('.pdf')) {
+      if (file.name.toLowerCase().endsWith('.pdf')) {
         const arrayBuffer = await file.arrayBuffer();
         const pdfDoc = await PDFDocument.load(arrayBuffer);
         const totalPages = pdfDoc.getPageCount();
@@ -105,12 +105,14 @@ export default function AdminPage() {
 
           const res = await fetch('/api/upload', { method: 'POST', body: fd });
           const data = await res.json();
-          if (res.ok && data.products) {
+          if (!res.ok) throw new Error(data.error || `Error en la página ${i+1}`);
+          
+          if (data.products) {
             currentProducts = [...currentProducts, ...data.products];
             setResults([...currentProducts]);
           }
         }
-      } else {
+      } else if (file.name.toLowerCase().endsWith('.xlsx')) {
         const fd = new FormData();
         fd.append('file', file);
         fd.append('brand', brand);
@@ -166,6 +168,18 @@ export default function AdminPage() {
             <button className="btn-primary" onClick={handleUpload} disabled={loading || !file} style={{ width: '100%', padding: '1rem' }}>
               {loading ? 'Analizando...' : 'Analizar y Previsualizar'}
             </button>
+
+            {loading && statusText && (
+              <p style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--accent-color)', textAlign: 'center', animation: 'pulse 1.5s infinite' }}>
+                {statusText}
+              </p>
+            )}
+
+            {error && (
+              <div style={{ marginTop: '1rem', padding: '1rem', background: 'rgba(255, 77, 79, 0.1)', border: '1px solid #ff4d4f', borderRadius: '6px', color: '#ff4d4f', fontSize: '0.85rem' }}>
+                <strong>Error:</strong> {error}
+              </div>
+            )}
 
             <button 
               onClick={handleClearBrand}
