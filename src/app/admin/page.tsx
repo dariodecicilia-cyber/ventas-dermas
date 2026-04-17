@@ -173,6 +173,7 @@ export default function AdminPage() {
                 <option value="Ale Piña">Ale Piña</option>
                 <option value="Derma's">Derma's</option>
                 <option value="K-beauty">K-beauty</option>
+                <option value="Desconocida">Desconocida</option>
               </select>
             </div>
 
