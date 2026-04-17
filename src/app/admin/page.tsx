@@ -101,15 +101,30 @@ export default function AdminPage() {
           const chunkBlob = new Blob([chunkBytes as any], { type: 'application/pdf' });
           const fd = new FormData();
           fd.append('file', chunkBlob, `page_${i}.pdf`);
-          fd.append('brand', brand);
+          // Pequeña pausa para no saturar la API
+          await new Promise(r => setTimeout(r, 2000));
 
-          const res = await fetch('/api/upload', { method: 'POST', body: fd });
-          const data = await res.json();
-          if (!res.ok) throw new Error(data.error || `Error en la página ${i+1}`);
-          
-          if (data.products) {
-            currentProducts = [...currentProducts, ...data.products];
-            setResults([...currentProducts]);
+          let success = false;
+          let retries = 0;
+          while (!success && retries < 3) {
+            try {
+              const res = await fetch('/api/upload', { method: 'POST', body: fd });
+              if (!res.ok) {
+                const errorData = await res.json().catch(() => ({ error: 'Error desconocido del servidor' }));
+                throw new Error(errorData.error || `Error en la página ${i+1}`);
+              }
+              const data = await res.json();
+              if (data.products) {
+                currentProducts = [...currentProducts, ...data.products];
+                setResults([...currentProducts]);
+              }
+              success = true;
+            } catch (err: any) {
+              retries++;
+              if (retries >= 3) throw err;
+              setStatusText(`⚠️ Reintentando página ${i+1}... (Intento ${retries+1})`);
+              await new Promise(r => setTimeout(r, 3000)); // Esperar 3s antes de reintentar
+            }
           }
         }
       } else if (file.name.toLowerCase().endsWith('.xlsx')) {
