@@ -20,7 +20,8 @@ export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemov
     // Construir mensaje de WhatsApp
     let mensaje = "Hola! Quiero realizar este pedido:\n\n";
     items.forEach(item => {
-      mensaje += `- ${item.quantity}x ${item.product.name} (${item.product.brand}): $${(item.product.price * item.quantity).toLocaleString('es-AR')}\n`;
+      const presentationText = item.product.presentation ? ` - ${item.product.presentation}` : '';
+      mensaje += `- ${item.quantity}x ${item.product.name}${presentationText} (${item.product.brand}): $${(item.product.price * item.quantity).toLocaleString('es-AR')}\n`;
     });
     mensaje += `\n*TOTAL: $${total.toLocaleString('es-AR')}*`;
     
@@ -60,7 +61,12 @@ export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemov
               <div key={item.product.id} style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: '1rem' }}>
                 <div style={{ flex: 1 }}>
                   <div style={{ fontSize: '0.8rem', color: 'var(--accent-color)' }}>{item.product.brand}</div>
-                  <div style={{ fontSize: '1rem', fontWeight: 500, marginBottom: '0.5rem' }}>{item.product.name}</div>
+                  <div style={{ fontSize: '1rem', fontWeight: 500, marginBottom: item.product.presentation ? '0.2rem' : '0.5rem' }}>{item.product.name}</div>
+                  {item.product.presentation && (
+                    <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
+                      {item.product.presentation}
+                    </div>
+                  )}
                   
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                     <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(255,255,255,0.1)', borderRadius: '4px' }}>
