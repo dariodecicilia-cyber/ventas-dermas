@@ -12,6 +12,29 @@ export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // Guardamos una marca para saber cuándo ya leímos el carrito del navegador
+  const isLoaded = React.useRef(false);
+
+  // 1. Al abrir la página, recuperamos el pedido que la clienta ya tenía guardado
+  React.useEffect(() => {
+    const savedCart = localStorage.getItem('dermas_cart');
+    if (savedCart) {
+      try {
+        setItems(JSON.parse(savedCart));
+      } catch (e) {
+        console.error("Error al cargar el carrito:", e);
+      }
+    }
+    isLoaded.current = true;
+  }, []);
+
+  // 2. Cada vez que la clienta agrega, quita o cambia la cantidad de un producto, lo guardamos automáticamente
+  React.useEffect(() => {
+    if (isLoaded.current) {
+      localStorage.setItem('dermas_cart', JSON.stringify(items));
+    }
+  }, [items]);
+
   React.useEffect(() => {
     fetch('/api/products', { 
        cache: 'no-store', 
