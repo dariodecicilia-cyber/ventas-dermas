@@ -9,9 +9,10 @@ interface CartProps {
   items: CartItem[];
   onUpdateQuantity: (id: string, qty: number) => void;
   onRemove: (id: string) => void;
+  onClearCart: () => void;
 }
 
-export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemove }: CartProps) {
+export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemove, onClearCart }: CartProps) {
   const total = items.reduce((acc, item) => acc + item.product.price * item.quantity, 0);
 
   const handleCheckout = () => {
@@ -50,7 +51,29 @@ export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemov
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
           <h2 style={{ fontSize: '1.5rem', fontWeight: 600 }}>Tu Pedido</h2>
-          <button onClick={onClose} style={{ background: 'none', border: 'none', color: '#fff', fontSize: '1.5rem', cursor: 'pointer' }}>×</button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            {items.length > 0 && (
+              <button 
+                onClick={() => {
+                  if (confirm('¿Seguro que quieres vaciar todo tu pedido?')) {
+                    onClearCart();
+                  }
+                }}
+                style={{ 
+                  background: 'none', 
+                  border: 'none', 
+                  color: '#ff4d4f', 
+                  fontSize: '0.9rem', 
+                  cursor: 'pointer',
+                  padding: '0.2rem 0.5rem',
+                  textDecoration: 'underline'
+                }}
+              >
+                🗑️ Vaciar todo
+              </button>
+            )}
+            <button onClick={onClose} style={{ background: 'none', border: 'none', color: '#fff', fontSize: '1.5rem', cursor: 'pointer' }}>×</button>
+          </div>
         </div>
 
         <div style={{ flex: 1, overflowY: 'auto' }}>
